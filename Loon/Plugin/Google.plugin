@@ -1,0 +1,11 @@
+#!name = 谷歌重定向
+#!desc = ㅤ
+#!author = 
+#!homepage = 
+#!icon = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Icon/80px/Loon.png
+
+[URL Rewrite]
+^https?:\/\/(www.)?(g|google)\.(cn|com\.hk) url 302 https://www.google.com
+
+[MITM]
+hostname = www.google.cn, www.google.com.hk
