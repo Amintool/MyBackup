@@ -4,7 +4,7 @@
 #!homepage = 
 #!icon = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Icon/80px/Loon.png
 
-[URL Rewrite]
+[Rewrite]
 ^https?:\/\/(www.)?(g|google)\.(cn|com\.hk) url 302 https://www.google.com
 
 [MITM]
