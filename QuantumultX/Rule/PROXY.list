@@ -1,10 +1,11 @@
 HOST-SUFFIX, akamai-content-network.com, PROXY
 HOST-SUFFIX, javdb.com, PROXY
 HOST-SUFFIX, yingav.com, PROXY
+HOST-SUFFIX, agemys.com, PROXY
 HOST, 18av.tv, PROXY
 HOST, 18av.mm-cg.com, PROXY
 HOST, 18h.tv, PROXY
 HOST, ddhft18.com, PROXY
 HOST, fc.imgscloud.com, PROXY
 HOST, saucenao.com, PROXY
-HOST, agemys.net, PROXY
+
