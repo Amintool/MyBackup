@@ -6,8 +6,7 @@
 
 [Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com
-^https?:\/\/(www.)?(g|google)\.com.hk 302 https://www.google.com
 
 [MITM]
-hostname = www.google.cn, www.google.com.hk
+hostname = www.google.cn
 
