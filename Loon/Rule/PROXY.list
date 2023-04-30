@@ -1,5 +1,10 @@
 DOMAIN-SUFFIX, akamai-content-network.com, PROXY
 DOMAIN-SUFFIX, javdb.com, PROXY
-DOMAIN-SUFFIX, 18av.tv, PROXY
-DOMAIN-SUFFIX, yingav, PROXY
-DOMAIN-SUFFIX, 18av, PROXY
+DOMAIN-SUFFIX, yingav.com, PROXY
+DOMAIN-SUFFIX, agemys.com, PROXY
+DOMAIN, 18av.tv, PROXY
+DOMAIN, 18av.mm-cg.com, PROXY
+DOMAIN, 18h.tv, PROXY
+DOMAIN, ddhft18.com, PROXY
+DOMAIN, fc.imgscloud.com, PROXY
+DOMAIN, saucenao.com, PROXY
