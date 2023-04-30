@@ -1,11 +1,11 @@
 # UPDATED: 2023-04-30 02:10:56
 # HOST: 539
 # HOST-KEYWORD: 39
-# HOST-SUFFIX: 19236
+# HOST-SUFFIX: 19238
 # IP-CIDR: 106
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 19970
+# TOTAL: 19972
 
 HOST,18h.tv,Global
 HOST,18av.tv,Global
@@ -13239,6 +13239,8 @@ HOST-SUFFIX,yibei.org,Global
 HOST-SUFFIX,yieamnd.com,Global
 HOST-SUFFIX,yinac.xyz,Global
 HOST-SUFFIX,yinac5.top,Global
+HOST-SUFFIX,yingav.com,Global
+HOST-SUFFIX,yingav.net,Global
 HOST-SUFFIX,yingpianqu.com,Global
 HOST-SUFFIX,yinmh.com,Global
 HOST-SUFFIX,yiqiedoushiganggangkaishi.org,Global
