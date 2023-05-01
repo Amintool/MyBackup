@@ -1,15 +1,22 @@
-hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+#!name = 油管去广告
+#!desc = ㅤ主页视频广告去除，解锁画中画
 
+
+[Rewrite]
 # ======= 视频广告请求 ======= #
-(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject-200
-
-
-# ======= 视频PIP|后台播放|瀑布流|搜索页|播放页|短视频|贴片广告  ======= #
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
-
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) 302 $1$2$3
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad reject-200
 
 # ======= 通用广告请求 ======= #
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject-200
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject-200
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject-200
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads reject-200
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) reject-200
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext reject-200
+
+
+[Script]
+# ======= 视频PIP|后台播放|瀑布流|搜索页|播放页|短视频|贴片广告  ======= #
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting) script-path= script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js, requires-body = true, binary-body-mode = true, tag = 解锁画中画去广告
+
+
+[MITM]
+hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
