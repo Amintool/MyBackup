@@ -2,7 +2,7 @@
 #!desc = app去除广告，优化使用体验
 #!author = babyaoo
 #!homepage = https://github.com/babyaoo/vpn
-#!icon = https://github.com/KeiKinn/StickerOnScreen/raw/main/Stickers/Sticker_1022.png
+#!icon = https://i.ibb.co/QrWf22b/IMG-0338.jpg
 
 [Rewrite]
 # 阿里巴巴 //acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com
@@ -86,5 +86,4 @@ http-response ^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\? script-path=http
 http-response ^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js, requires-body=true, timeout=60 ,tag=wechat110_98
 
 [MITM]
-
 hostname = acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, pan.baidu.com, api.chelaile.net.cn, web.chelaile.net.cn, api.douban.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, gab.122.gov.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, mp.weixin.qq.com, gw.alicdn.com, acs.m.taobao.com, wallet.95516.com, api.m.jd.com, api.coolapk.com, tiebac.baidu.com, weixin110.qq.com, security.wechat.com
