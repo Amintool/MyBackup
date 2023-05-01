@@ -1,5 +1,5 @@
 #!name = 谷歌重定向
-#!desc = ㅤ谷歌搜索中国和香港重定向，优化使用体验
+#!desc = ㅤ谷歌重定向
 
 [Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com
