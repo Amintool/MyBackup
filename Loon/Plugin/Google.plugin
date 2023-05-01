@@ -1,12 +1,13 @@
 #!name = 谷歌重定向
-#!desc = ㅤ将google.cn/google.com.hk重定向回google.com
+#!desc = ㅤ谷歌搜索中国和香港重定向，优化使用体验
 #!author = Pastababy
 #!homepage = https://github.com/Pastababy/MyBackup
 #!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 
 [Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com
+^https?:\/\/(www.)?(g|google)\.com.hk 302 https://www.google.co.jp
 
 [MITM]
-hostname = www.google.cn
+hostname = www.google.cn, google.com.hk
 
