@@ -2,8 +2,8 @@
 #!desc = 油管独立版
 
 [Script]
-http-response https:\/\/www.youtube.com\/api\/timedtext.+ script-path = https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/Dualsub.js, requires-body = true, tag = 油管翻译
-http-response https:\/\/setting.youtube.com\/\?action=(g|s)et script-path = https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/Dualsub.js, requires-body = true, tag = 油管翻译
+http-response https:\/\/www.youtube.com\/api\/timedtext.+ script-path = https://raw.githubusercontent.com/Neurogram-R/Surge/master/Dualsub.js, requires-body = true, tag = 油管翻译
+http-response https:\/\/setting.youtube.com\/\?action=(g|s)et script-path = https://raw.githubusercontent.com/Neurogram-R/Surge/master/Dualsub.js, requires-body = true, tag = 油管翻译
 
 [Mitm]
 hostname = *.youtube.com
