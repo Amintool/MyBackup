@@ -1,11 +1,11 @@
 # UPDATED: 2023-04-30 02:10:56
 # HOST: 538
 # HOST-KEYWORD: 39
-# HOST-SUFFIX: 19239
+# HOST-SUFFIX: 19240
 # IP-CIDR: 106
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 19972
+# TOTAL: 19973
 
 HOST,18h.tv,Global
 HOST,18av.tv,Global
@@ -7702,6 +7702,7 @@ HOST-SUFFIX,linkedin.cn,Global
 HOST-SUFFIX,linkjunkies.com,Global
 HOST-SUFFIX,linksalpha.com,Global
 HOST-SUFFIX,linkshit.com,Global
+HOST-SUFFIX,linktr.ee,Global
 HOST-SUFFIX,linotype.com,Global
 HOST-SUFFIX,linseysworld.com,Global
 HOST-SUFFIX,linux.org,Global
