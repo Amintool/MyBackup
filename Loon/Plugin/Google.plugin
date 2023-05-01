@@ -1,7 +1,7 @@
 #!name = 谷歌重定向
 #!desc = ㅤ将google.cn/google.com.hk重定向回google.com
-#!author = babyaoo
-#!homepage = https://github.com/babyaoo/vpn
+#!author = Pastababy
+#!homepage = https://github.com/Pastababy/MyBackup
 #!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 
 [Rewrite]
