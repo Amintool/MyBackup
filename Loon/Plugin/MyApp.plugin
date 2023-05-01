@@ -1,5 +1,5 @@
-#!name = 常用软件去广告
-#!desc = 常用软件优化使用体验，去除扰人广告
+#!name = 应用去广告
+#!desc = 应用去广告
 
 [Rewrite]
 # 阿里巴巴 //acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com
