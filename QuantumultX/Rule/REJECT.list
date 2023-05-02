@@ -84,4 +84,4 @@ IP-CIDR, 103.41.167.237/32, REJECT
 IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 # 字节跳动
 HOST, ad.zijieapi.com, REJECT
-HOST-WILDCARD, p?-ad-sign.byteimg.com, REJECT
+HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
