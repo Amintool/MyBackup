@@ -35,6 +35,15 @@
 ^https:\/\/fuss10.elemecdn.com\/.+\.mp4 - reject
 ^https:\/\/www1.elecfans.com\/www\/delivery - reject
 
+#番茄 // reading-hl.snssdk.com, i-hl.snssdk.com, sf1-ttcdn-tos.pstatp.com, sf6-be-pack.pglstatp-toutiao.com, i.snssdk.com
+^https?:\/\/(reading-hl|i-hl)\.snssdk.com\/api\/ad\/.+ −  reject
+^https?:\/\/.+\.pstatp\.com\/obj\/web\.business\.image\/.+ − reject
+^https?:\/\/.+\.pglstatp-toutiao\.com\/obj\/ad-app-package\/.+ − reject
+^https?:\/\/.+\.pstatp\.com\/obj\/img-cut-tos\/.+ − reject
+^https?:\/\/.+\.byteimg\.com\/tos-cn-i-0000\/.+ − reject
+^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track_log\/src\/.+ − reject
+^https:\/\/i\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 − reject
+
 # 交管12123 //gab.122.gov.cn
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
 
@@ -81,4 +90,4 @@ http-response ^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\? script-path=http
 http-response ^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js, requires-body=true, timeout=60 ,tag=解除被封禁
 
 [MITM]
-hostname = acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, pan.baidu.com, api.chelaile.net.cn, web.chelaile.net.cn, api.douban.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, gab.122.gov.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, mp.weixin.qq.com, gw.alicdn.com, acs.m.taobao.com, wallet.95516.com, api.m.jd.com, api.coolapk.com, tiebac.baidu.com, weixin110.qq.com, security.wechat.com
+hostname = acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, pan.baidu.com, api.chelaile.net.cn, web.chelaile.net.cn, api.douban.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, gab.122.gov.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, mp.weixin.qq.com, gw.alicdn.com, acs.m.taobao.com, wallet.95516.com, api.m.jd.com, api.coolapk.com, tiebac.baidu.com, weixin110.qq.com, security.wechat.com, reading-hl.snssdk.com, i-hl.snssdk.com, sf1-ttcdn-tos.pstatp.com, sf6-be-pack.pglstatp-toutiao.com, i.snssdk.com
