@@ -36,7 +36,7 @@
 ^https:\/\/www1.elecfans.com\/www\/delivery - reject
 
 #番茄 // reading-hl.snssdk.com, i-hl.snssdk.com, sf1-ttcdn-tos.pstatp.com, sf6-be-pack.pglstatp-toutiao.com, i.snssdk.com
-^https?:\/\/(reading-hl|i-hl)\.snssdk.com\/api\/ad\/.+ −  reject
+^https?:\/\/(reading-hl|i-hl)\.snssdk.com\/api\/ad\/.+ − reject
 ^https?:\/\/.+\.pstatp\.com\/obj\/web\.business\.image\/.+ − reject
 ^https?:\/\/.+\.pglstatp-toutiao\.com\/obj\/ad-app-package\/.+ − reject
 ^https?:\/\/.+\.pstatp\.com\/obj\/img-cut-tos\/.+ − reject
