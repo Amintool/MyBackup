@@ -84,4 +84,4 @@ IP-CIDR, 103.41.167.237/32, REJECT
 IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 # 字节跳动
 DOMAIN, ad.zijieapi.com, REJECT
-URL-REGEX, p?-ad-sign.byteimg.com, REJECT
+DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
