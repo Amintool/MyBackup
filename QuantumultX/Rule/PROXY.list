@@ -1,11 +1,11 @@
 # UPDATED: 2023-04-30 02:10:56
-# HOST: 535
+# HOST: 534
 # HOST-KEYWORD: 40
 # HOST-SUFFIX: 19239
 # IP-CIDR: 106
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 19970
+# TOTAL: 19969
 
 HOST,18h.tv,Global
 HOST,18av.tv,Global
@@ -43,7 +43,6 @@ HOST,alt5-mtalk.google.com,Global
 HOST,alt6-mtalk.google.com,Global
 HOST,alt7-mtalk.google.com,Global
 HOST,alt8-mtalk.google.com,Global
-HOST,amp-api.podcasts.apple.com,Global
 HOST,amp.akamaized.net,Global
 HOST,angle.com.tw,Global
 HOST,anime-rule34-world.b-cdn.net,Global
