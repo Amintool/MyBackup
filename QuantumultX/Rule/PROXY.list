@@ -76,7 +76,6 @@ HOST,bcovlive-a.akamaihd.net,Global
 HOST,bcsecure01-a.akamaihd.net,Global
 HOST,beatselectronicsllc.tt.omtrdc.net,Global
 HOST,beck-online.beck.de,Global
-HOST,beta.music.apple.com,Global
 HOST,bingsettingssearch.trafficmanager.net,Global
 HOST,blizzard.nefficient.co.kr,Global
 HOST,blizzcon-a.akamaihd.net,Global
@@ -87,7 +86,6 @@ HOST,blznav.akamaized.net,Global
 HOST,bnetcmsus-a.akamaihd.net,Global
 HOST,bnetproduct-a.akamaihd.net,Global
 HOST,bnetshopus.akamaized.net,Global
-HOST,books.apple.com,Global
 HOST,brightcove.imgix.net,Global
 HOST,cbsi.live.ott.irdeto.com,Global
 HOST,cbsplaylistserver.aws.syncbak.com,Global
@@ -219,7 +217,6 @@ HOST,init-p01st-lb.push-apple.com.akadns.net,Global
 HOST,init-s01st-lb.push-apple.com.akadns.net,Global
 HOST,interactive-examples.mdn.mozilla.net,Global
 HOST,itvpnpmobile-a.akamaihd.net,Global
-HOST,js-cdn.music.apple.com,Global
 HOST,kktv-theater.kk.stream,Global
 HOST,lab.skk.moe,Global
 HOST,lgelectronics.122.2o7.net,Global
@@ -395,7 +392,6 @@ HOST,t21.nikkei.co.jp,Global
 HOST,t21ipau.nikkei.co.jp,Global
 HOST,tesla-cdn.thron.cn,Global
 HOST,tesla-cdn.thron.com,Global
-HOST,tv.apple.com,Global
 HOST,tvcastlive-hamivideo.cdn.hinet.net,Global
 HOST,ubisoft-orbit-savegames.s3.amazonaws.com,Global
 HOST,ubisoft-uplay-savegames.s3.amazonaws.com,Global
@@ -543,7 +539,6 @@ HOST,developer.apple.com,Global
 HOST,lens.l.google.com,Global
 HOST,p16-tiktokcdn-com.akamaized.net,Global
 HOST,services.googleapis.cn,Global
-HOST,testflight.apple.com,Global
 HOST,voice.telephony.goog,Global
 HOST-SUFFIX,01.org,Global
 HOST-SUFFIX,02weqj32.com,Global
@@ -1449,7 +1444,6 @@ HOST-SUFFIX,appl-e.com,Global
 HOST-SUFFIX,appl.com,Global
 HOST-SUFFIX,appl4e.com,Global
 HOST-SUFFIX,appla.com,Global
-HOST-SUFFIX,apple-appstore.cn,Global
 HOST-SUFFIX,apple-cloudkit.com,Global
 HOST-SUFFIX,apple-darwin.com,Global
 HOST-SUFFIX,apple-darwin.net,Global
@@ -1459,11 +1453,8 @@ HOST-SUFFIX,apple-dns.com,Global
 HOST-SUFFIX,apple-enews.com,Global
 HOST-SUFFIX,apple-expo.com,Global
 HOST-SUFFIX,apple-hk.com,Global
-HOST-SUFFIX,apple-ibooks.cn,Global
-HOST-SUFFIX,apple-icloud.cn,Global
 HOST-SUFFIX,apple-imac.com,Global
 HOST-SUFFIX,apple-inc.net,Global
-HOST-SUFFIX,apple-itunes.cn,Global
 HOST-SUFFIX,apple-livephotoskit.com,Global
 HOST-SUFFIX,apple-mapkit.com,Global
 HOST-SUFFIX,apple-maps.cn,Global
@@ -1474,9 +1465,6 @@ HOST-SUFFIX,apple-store.cn,Global
 HOST-SUFFIX,apple-store.net,Global
 HOST-SUFFIX,apple-store.wang,Global
 HOST-SUFFIX,apple-usa.net,Global
-HOST-SUFFIX,apple.cn,Global
-HOST-SUFFIX,apple.co,Global
-HOST-SUFFIX,apple.com.co,Global
 HOST-SUFFIX,apple.comscoreresearch.com,Global
 HOST-SUFFIX,apple.me,Global
 HOST-SUFFIX,apple.net,Global
@@ -1599,7 +1587,6 @@ HOST-SUFFIX,appmediagroup.com,Global
 HOST-SUFFIX,approvedusedbmw.com,Global
 HOST-SUFFIX,appserviceenvironment.cn,Global
 HOST-SUFFIX,appsonebay.net,Global
-HOST-SUFFIX,appstoreapple.cn,Global
 HOST-SUFFIX,appule.com,Global
 HOST-SUFFIX,appye.com,Global
 HOST-SUFFIX,appyq.com,Global
@@ -6680,7 +6667,6 @@ HOST-SUFFIX,icloud.com,Global
 HOST-SUFFIX,icloud.net.cn,Global
 HOST-SUFFIX,icloud.org,Global
 HOST-SUFFIX,icloudads.net,Global
-HOST-SUFFIX,icloudapple.cn,Global
 HOST-SUFFIX,icloudbox.net,Global
 HOST-SUFFIX,icloudbrowser.net,Global
 HOST-SUFFIX,icloude.com,Global
@@ -7127,14 +7113,12 @@ HOST-SUFFIX,itsoc.org,Global
 HOST-SUFFIX,itu.int,Global
 HOST-SUFFIX,itunbes.com,Global
 HOST-SUFFIX,ituneas.com,Global
-HOST-SUFFIX,itunes-apple.cn,Global
 HOST-SUFFIX,itunes-apple.com.akadns.net,Global
 HOST-SUFFIX,itunes-radio.net,Global
 HOST-SUFFIX,itunes.co,Global
 HOST-SUFFIX,itunes.com,Global
 HOST-SUFFIX,itunes.org,Global
 HOST-SUFFIX,itunes12days.com,Global
-HOST-SUFFIX,itunesapple.cn,Global
 HOST-SUFFIX,itunesessentials.com,Global
 HOST-SUFFIX,itunesfestivals.com,Global
 HOST-SUFFIX,itunesiradio.com,Global
