@@ -1,11 +1,11 @@
 # UPDATED: 2023-04-30 02:10:56
-# HOST: 534
+# HOST: 535
 # HOST-KEYWORD: 40
-# HOST-SUFFIX: 19239
+# HOST-SUFFIX: 19240
 # IP-CIDR: 106
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 19969
+# TOTAL: 19971
 
 HOST,18h.tv,Global
 HOST,18av.tv,Global
@@ -182,6 +182,7 @@ HOST,gigabyte2.azureedge.net,Global
 HOST,github-cloud.s3.amazonaws.com,Global
 HOST,github.global.ssl.fastly.net,Global
 HOST,gitlab-assets.oss-cn-hongkong.aliyuncs.com,Global
+HOST,global.poe.live-video.net,Global
 HOST,gog.qtlglb.com,Global
 HOST,gsp4-cn.ls.apple.com.edgekey.net,Global
 HOST,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net,Global
@@ -1429,6 +1430,7 @@ HOST-SUFFIX,apornotube.net,Global
 HOST-SUFFIX,aporntv.com,Global
 HOST-SUFFIX,apornvideo.com,Global
 HOST-SUFFIX,app-dynamics.com,Global
+HOST-SUFFIX,app-measurement.com,Global
 HOST-SUFFIX,app-measurement-cn.com,Global
 HOST-SUFFIX,app-store.wang,Global
 HOST-SUFFIX,app0le.com,Global
