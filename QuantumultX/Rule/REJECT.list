@@ -10,26 +10,6 @@ HOST, safebrowsing.urlsec.qq.com, REJECT
 HOST, token.safebrowsing.apple, REJECT
 HOST, vs6.bj2ct.u3.ucweb.com, REJECT
 HOST-SUFFIX, u3.ucweb.com, REJECT
-# 爱阅书香
-HOST,api-access.pangolin-sdk-toutiao.com,DIRECT
-HOST,open.e.kuaishou.com,REJECT
-HOST,video-dsp.pddpic.com,REJECT
-HOST,log-api.pangolin-sdk-toutiao-b.com,REJECT
-HOST,ether-pack.pangolin-sdk-toutiao.com,REJECT
-HOST,mssdk-bu.bytedance.com,REJECT
-HOST,images.pinduoduo.com,REJECT
-HOST,csi.gstatic.com,REJECT
-HOST,www.googletagservices.com,REJECT
-HOST-SUFFIX,gdt.qq.com,REJECT
-HOST-SUFFIX,app-measurement.com,REJECT
-HOST-SUFFIX,umeng.com,REJECT
-HOST-SUFFIX,umengcloud.com,REJECT
-HOST-SUFFIX,snssdk.com,REJECT
-HOST-SUFFIX,pglstatp-toutiao.com,REJECT
-HOST,ctobsnssdk.com,REJECT
-HOST-SUFFIX,ugdtimg.com,REJECT
-HOST-SUFFIX,doubleclick.net,REJECT
-HOST-SUFFIX,gvt1.com,REJECT
 
 # ======= B ======= #
 # 哔哩哔哩
@@ -68,7 +48,7 @@ IP-CIDR, 117.92.229.188/32, REJECT
 IP-CIDR, 101.36.166.16/32, REJECT
 IP-CIDR, 180.96.2.114/32, REJECT
 # 番茄小说福利页
-HOST, lf-sourcecdn-tos.bytegecko.com, DIRECT
+# HOST, lf-sourcecdn-tos.bytegecko.com, DIRECT
 # Flurry
 HOST, data.flurry.com, REJECT
 # Foreca & Google
