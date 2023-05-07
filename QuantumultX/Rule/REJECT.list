@@ -18,12 +18,9 @@ HOST, passport.bilibili.com, REJECT
 
 # ======= F ======= #
 # 番茄小说
-HOST, p6-ad-sign.byteimg.com, REJECT
-HOST, p9-ad-sign.byteimg.com, REJECT
 HOST, i.snssdk.com, REJECT
 HOST, i-lq.snssdk.com, REJECT
 HOST, dig.bdurl.net, REJECT
-HOST-SUFFIX, zijieapi.com, REJECT
 HOST, activity-ag.awemeughun.com, REJECT
 HOST, mcs.snssdk.com, REJECT
 HOST, tnc3-alisc1.snssdk.com, REJECT
@@ -34,10 +31,12 @@ HOST, msync-im1-vip6-std.easemob.com, REJECT
 HOST, apd-pcdnwxlogin.teg.tencent-cloud.net, REJECT
 HOST, api.iegadp.qq.com, REJECT
 HOST, sf3-ttcdn-tos.pstatp.com, REJECT
-HOST-SUFFIX, pglstatp-toutiao.com, REJECT
 HOST, *default.ixigua.com, REJECT
 HOST, v6-novelapp.ixigua.com, REJECT
 HOST, *novelapp.ixigua.com, REJECT
+HOST-SUFFIX, -ad-sign.byteimg.com, REJECT
+HOST-SUFFIX, pglstatp-toutiao.com, REJECT
+HOST-SUFFIX, zijieapi.com, REJECT
 HOST-SUFFIX, byteorge.com, REJECT
 HOST-SUFFIX, bytegoofy.com, REJECT
 HOST-SUFFIX, bytedance.com, REJECT
@@ -47,10 +46,6 @@ IP-CIDR, 218.94.207.205/32, REJECT
 IP-CIDR, 117.92.229.188/32, REJECT
 IP-CIDR, 101.36.166.16/32, REJECT
 IP-CIDR, 180.96.2.114/32, REJECT
-# 番茄小说福利页
-# HOST, lf-sourcecdn-tos.bytegecko.com, DIRECT
-# Flurry
-HOST, data.flurry.com, REJECT
 # Foreca & Google
 HOST, googleads.g.doubleclick-cn.net, REJECT
 HOST, googleads.g.doubleclick.net, REJECT
@@ -114,6 +109,3 @@ HOST, sugar.zhihu.com, REJECT
 IP-CIDR, 118.89.204.198/32, REJECT
 IP-CIDR, 103.41.167.237/32, REJECT
 IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
-# 字节跳动
-HOST, ad.zijieapi.com, REJECT
-HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
