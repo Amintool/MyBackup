@@ -37,6 +37,7 @@ HOST, mall.bilibili.com, REJECT
 HOST, passport.bilibili.com, REJECT
 
 # ======= F ======= #
+# 番茄小说
 HOST, p6-ad-sign.byteimg.com, REJECT
 HOST, p9-ad-sign.byteimg.com, REJECT
 HOST, i.snssdk.com, REJECT
