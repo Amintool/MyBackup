@@ -1,11 +1,11 @@
 # UPDATED: 2023-04-30 02:10:56
 # HOST: 538
 # HOST-KEYWORD: 40
-# HOST-SUFFIX: 19241
+# HOST-SUFFIX: 19240
 # IP-CIDR: 106
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 19975
+# TOTAL: 19974
 
 HOST,18h.tv,Global
 HOST,18av.tv,Global
@@ -1476,7 +1476,6 @@ HOST-SUFFIX,apple-store.wang,Global
 HOST-SUFFIX,apple-usa.net,Global
 HOST-SUFFIX,apple.cn,Global
 HOST-SUFFIX,apple.co,Global
-HOST-SUFFIX,apple.com,Global
 HOST-SUFFIX,apple.com.co,Global
 HOST-SUFFIX,apple.comscoreresearch.com,Global
 HOST-SUFFIX,apple.me,Global
