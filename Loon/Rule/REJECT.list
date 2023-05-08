@@ -21,6 +21,7 @@ DOMAIN, passport.bilibili.com, REJECT
 DOMAIN, i.snssdk.com, REJECT
 DOMAIN, i-lq.snssdk.com, REJECT
 DOMAIN, activity-ag.awemeughun.com, REJECT
+DOMAIN, dig.bdurl.net, REJECT
 DOMAIN, mcs.snssdk.com, REJECT
 DOMAIN, tnc3-alisc1.snssdk.com, REJECT
 DOMAIN, security-lq.snssdk.com, REJECT
@@ -35,7 +36,10 @@ DOMAIN, v6-novelapp.ixigua.com, REJECT
 DOMAIN, *novelapp.ixigua.com, REJECT
 DOMAIN-SUFFIX, -ad-sign.byteimg.com, REJECT
 DOMAIN-SUFFIX, pglstatp-toutiao.com, REJECT
-DOMAIN-SUFFIX, ad.zijieapi.com, REJECT
+DOMAIN-SUFFIX, zijieapi.com, REJECT
+DOMAIN-SUFFIX, byteorge.com, REJECT
+DOMAIN-SUFFIX, bytegoofy.com, REJECT
+DOMAIN-SUFFIX, bytedance.com, REJECT
 IP-CIDR, 49.71.37.101/32, REJECT
 IP-CIDR, 117.71.105.23/32, REJECT
 IP-CIDR, 218.94.207.205/32, REJECT
