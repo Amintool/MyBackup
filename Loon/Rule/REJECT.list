@@ -37,9 +37,6 @@ DOMAIN, *novelapp.ixigua.com, REJECT
 DOMAIN-SUFFIX, -ad-sign.byteimg.com, REJECT
 DOMAIN-SUFFIX, pglstatp-toutiao.com, REJECT
 DOMAIN-SUFFIX, ad.zijieapi.com, REJECT
-DOMAIN-SUFFIX, byteorge.com, REJECT
-DOMAIN-SUFFIX, bytegoofy.com, REJECT
-DOMAIN-SUFFIX, bytedance.com, REJECT
 IP-CIDR, 49.71.37.101/32, REJECT
 IP-CIDR, 117.71.105.23/32, REJECT
 IP-CIDR, 218.94.207.205/32, REJECT
