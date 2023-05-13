@@ -18,6 +18,7 @@ HOST, passport.bilibili.com, REJECT
 
 # ======= F ======= #
 # 番茄小说
+HOST, dig.zjurl.cn, REJECT
 HOST, i.snssdk.com, REJECT
 HOST, i-lq.snssdk.com, REJECT
 HOST, dig.bdurl.net, REJECT
