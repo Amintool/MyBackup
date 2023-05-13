@@ -1,15 +1,15 @@
-# UPDATED: 2023-04-30 02:10:56
-# HOST: 535
-# HOST-KEYWORD: 40
-# HOST-SUFFIX: 19240
+# NAME: PROXY
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-05-13 02:12:30
+# HOST: 536
+# HOST-KEYWORD: 39
+# HOST-SUFFIX: 19301
 # IP-CIDR: 106
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 19971
+# TOTAL: 20032
 
-HOST,18h.tv,PROXY
-HOST,18av.tv,PROXY
-HOST,18av.mm-cg.com,PROXY
 HOST,3dns-1.adobe.com,PROXY
 HOST,3dns-2.adobe.com,PROXY
 HOST,3dns-3.adobe.com,PROXY
@@ -43,6 +43,7 @@ HOST,alt5-mtalk.google.com,PROXY
 HOST,alt6-mtalk.google.com,PROXY
 HOST,alt7-mtalk.google.com,PROXY
 HOST,alt8-mtalk.google.com,PROXY
+HOST,amp-api.podcasts.apple.com,PROXY
 HOST,amp.akamaized.net,PROXY
 HOST,angle.com.tw,PROXY
 HOST,anime-rule34-world.b-cdn.net,PROXY
@@ -86,6 +87,7 @@ HOST,blznav.akamaized.net,PROXY
 HOST,bnetcmsus-a.akamaihd.net,PROXY
 HOST,bnetproduct-a.akamaihd.net,PROXY
 HOST,bnetshopus.akamaized.net,PROXY
+HOST,books.apple.com,PROXY
 HOST,brightcove.imgix.net,PROXY
 HOST,cbsi.live.ott.irdeto.com,PROXY
 HOST,cbsplaylistserver.aws.syncbak.com,PROXY
@@ -105,9 +107,10 @@ HOST,cl1-cdn.origin-apple.com.akadns.net,PROXY
 HOST,cl3-cdn.origin-apple.com.akadns.net,PROXY
 HOST,cl4-cdn.origin-apple.com.akadns.net,PROXY
 HOST,cl5-cdn.origin-apple.com.akadns.net,PROXY
+HOST,client-teamviewer-com.trafficmanager.net,PROXY
 HOST,clientflow.apple.com.akadns.net,PROXY
 HOST,clients1.google.com,PROXY
-HOST,cloud-cdn-digitalocean-com.PROXY.ssl.fastly.net,PROXY
+HOST,cloud-cdn-digitalocean-com.global.ssl.fastly.net,PROXY
 HOST,cloudsync-prod.s3.amazonaws.com,PROXY
 HOST,clubhouse.pubnubapi.com,PROXY
 HOST,configuration.apple.com.akadns.net,PROXY
@@ -116,7 +119,6 @@ HOST,crl-lb.apple.com.akadns.net,PROXY
 HOST,crl.microsoft.com,PROXY
 HOST,crl.versign.net,PROXY
 HOST,csis-prod.s3.amazonaws.com,PROXY
-HOST,ddhft18.com, PROXY
 HOST,d151l6v8er5bdm.cloudfront.net,PROXY
 HOST,d1k2us671qcoau.cloudfront.net,PROXY
 HOST,d1v5ir2lpwr8os.cloudfront.net,PROXY
@@ -166,7 +168,6 @@ HOST,ereg.wip4.adobe.com,PROXY
 HOST,espn.api.edge.bamgrid.com,PROXY
 HOST,espn.hb.omtrdc.net,PROXY
 HOST,espndotcom.tt.omtrdc.net,PROXY
-HOST,fc.imgscloud.com,PROXY
 HOST,f3b7q2p3.ssl.hwcdn.net,PROXY
 HOST,fandom.zendesk.com,PROXY
 HOST,faronics.kayako.com,PROXY
@@ -180,12 +181,11 @@ HOST,gamer-cds.cdn.hinet.net,PROXY
 HOST,gamer2-cds.cdn.hinet.net,PROXY
 HOST,gigabyte2.azureedge.net,PROXY
 HOST,github-cloud.s3.amazonaws.com,PROXY
-HOST,github.PROXY.ssl.fastly.net,PROXY
+HOST,github.global.ssl.fastly.net,PROXY
 HOST,gitlab-assets.oss-cn-hongkong.aliyuncs.com,PROXY
-HOST,PROXY.poe.live-video.net,PROXY
 HOST,gog.qtlglb.com,PROXY
 HOST,gsp4-cn.ls.apple.com.edgekey.net,PROXY
-HOST,gsp4-cn.ls.apple.com.edgekey.net.PROXYredir.akadns.net,PROXY
+HOST,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net,PROXY
 HOST,gspe19-cn.ls-apple.com.akadns.net,PROXY
 HOST,hamifans.emome.net,PROXY
 HOST,hamivideo.hinet.net,PROXY
@@ -208,7 +208,7 @@ HOST,hulu.playback.edge.bamgrid.com,PROXY
 HOST,i.jeded.com,PROXY
 HOST,icloud-cdn.icloud.com.akadns.net,PROXY
 HOST,images.apple.com.akadns.net,PROXY
-HOST,images.apple.com.edgekey.net.PROXYredir.akadns.net,PROXY
+HOST,images.apple.com.edgekey.net.globalredir.akadns.net,PROXY
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,PROXY
 HOST,img-s-msn-com.akamaized.net,PROXY
 HOST,impala-media-production.s3.amazonaws.com,PROXY
@@ -384,7 +384,7 @@ HOST,statics-marketingsites-eus-ms-com.akamaized.net,PROXY
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,PROXY
 HOST,stocks-sparkline-lb.apple.com.akadns.net,PROXY
 HOST,store.apple.com.edgekey.net,PROXY
-HOST,store.apple.com.edgekey.net.PROXYredir.akadns.net,PROXY
+HOST,store.apple.com.edgekey.net.globalredir.akadns.net,PROXY
 HOST,store.storeimages.apple.com.akadns.net,PROXY
 HOST,support-china.apple-support.akadns.net,PROXY
 HOST,swcatalog-cdn.apple.com.akadns.net,PROXY
@@ -392,8 +392,10 @@ HOST,swdist.apple.com.akadns.net,PROXY
 HOST,swscan-cdn.apple.com.akadns.net,PROXY
 HOST,t21.nikkei.co.jp,PROXY
 HOST,t21ipau.nikkei.co.jp,PROXY
+HOST,teamviewer.com.cdn.cloudflare.net,PROXY
 HOST,tesla-cdn.thron.cn,PROXY
 HOST,tesla-cdn.thron.com,PROXY
+HOST,tv.apple.com,PROXY
 HOST,tvcastlive-hamivideo.cdn.hinet.net,PROXY
 HOST,ubisoft-orbit-savegames.s3.amazonaws.com,PROXY
 HOST,ubisoft-uplay-savegames.s3.amazonaws.com,PROXY
@@ -530,17 +532,19 @@ HOST,wwis-dubc1-vip98.adobe.com,PROXY
 HOST,wwis-dubc1-vip99.adobe.com,PROXY
 HOST,www-cdn.icloud.com.akadns.net,PROXY
 HOST,www.apple.com.edgekey.net,PROXY
-HOST,www.apple.com.edgekey.net.PROXYredir.akadns.net,PROXY
+HOST,www.apple.com.edgekey.net.globalredir.akadns.net,PROXY
 HOST,youtubei.googleapis.com,PROXY
 HOST,zeenews-fonts.s3.amazonaws.com,PROXY
 HOST,api.waqi.info,PROXY
 HOST,aqi.aqicn.org,PROXY
 HOST,assets-priconne-redive-us.akamaized.net,PROXY
+HOST,cloud.oracle.com,PROXY
 HOST,cvws.icloud-content.com,PROXY
 HOST,developer.apple.com,PROXY
 HOST,lens.l.google.com,PROXY
 HOST,p16-tiktokcdn-com.akamaized.net,PROXY
 HOST,services.googleapis.cn,PROXY
+HOST,testflight.apple.com,PROXY
 HOST,voice.telephony.goog,PROXY
 HOST-SUFFIX,01.org,PROXY
 HOST-SUFFIX,02weqj32.com,PROXY
@@ -561,6 +565,7 @@ HOST-SUFFIX,10xfotolia.com,PROXY
 HOST-SUFFIX,110xnxx.com,PROXY
 HOST-SUFFIX,112263.com,PROXY
 HOST-SUFFIX,114av.xyz,PROXY
+HOST-SUFFIX,11jav.com,PROXY
 HOST-SUFFIX,123-hp.com,PROXY
 HOST-SUFFIX,123hplaserjet.com,PROXY
 HOST-SUFFIX,123sex.top,PROXY
@@ -608,6 +613,7 @@ HOST-SUFFIX,18qt.com,PROXY
 HOST-SUFFIX,18schoolgirlz.me,PROXY
 HOST-SUFFIX,18sex.org,PROXY
 HOST-SUFFIX,1bigclub.com,PROXY
+HOST-SUFFIX,1bokeponline.top,PROXY
 HOST-SUFFIX,1classtube.com,PROXY
 HOST-SUFFIX,1drv.com,PROXY
 HOST-SUFFIX,1drv.ms,PROXY
@@ -660,6 +666,7 @@ HOST-SUFFIX,2mdn-cn.net,PROXY
 HOST-SUFFIX,2mdn.net,PROXY
 HOST-SUFFIX,30plusgirls.com,PROXY
 HOST-SUFFIX,32bm.cc,PROXY
+HOST-SUFFIX,35s4.com,PROXY
 HOST-SUFFIX,365buymy.com,PROXY
 HOST-SUFFIX,3789av.com,PROXY
 HOST-SUFFIX,39group.info,PROXY
@@ -737,7 +744,7 @@ HOST-SUFFIX,52hyse.com,PROXY
 HOST-SUFFIX,531tr.com,PROXY
 HOST-SUFFIX,53world.com,PROXY
 HOST-SUFFIX,53worldsweeps.com,PROXY
-HOST-SUFFIX,54647.PROXY,PROXY
+HOST-SUFFIX,54647.global,PROXY
 HOST-SUFFIX,54647.online,PROXY
 HOST-SUFFIX,54647.org,PROXY
 HOST-SUFFIX,55dndn.com,PROXY
@@ -761,12 +768,12 @@ HOST-SUFFIX,66wwmm.com,PROXY
 HOST-SUFFIX,67id.com,PROXY
 HOST-SUFFIX,67maoab.com,PROXY
 HOST-SUFFIX,69-sexgames.com,PROXY
+HOST-SUFFIX,69bag.xyz,PROXY
 HOST-SUFFIX,69femdom.com,PROXY
 HOST-SUFFIX,69flv.com,PROXY
 HOST-SUFFIX,69gayporno.com,PROXY
 HOST-SUFFIX,69loli.com,PROXY
 HOST-SUFFIX,69luolie.com,PROXY
-HOST-SUFFIX,69shu.com,PROXY
 HOST-SUFFIX,69story.com,PROXY
 HOST-SUFFIX,69tubesex.com,PROXY
 HOST-SUFFIX,69vj.com,PROXY
@@ -823,6 +830,8 @@ HOST-SUFFIX,920share.com,PROXY
 HOST-SUFFIX,921bb.com,PROXY
 HOST-SUFFIX,922tp.com,PROXY
 HOST-SUFFIX,928.plus,PROXY
+HOST-SUFFIX,941tube.com,PROXY
+HOST-SUFFIX,9550.fun,PROXY
 HOST-SUFFIX,97dounai.top,PROXY
 HOST-SUFFIX,99quse.cc,PROXY
 HOST-SUFFIX,99re.com,PROXY
@@ -970,6 +979,7 @@ HOST-SUFFIX,adorevids.com,PROXY
 HOST-SUFFIX,ads-pixiv.net,PROXY
 HOST-SUFFIX,adsensecustomsearchads.com,PROXY
 HOST-SUFFIX,adsenseformobileapps.com,PROXY
+HOST-SUFFIX,adult-h.com,PROXY
 HOST-SUFFIX,adult-home-videos.com,PROXY
 HOST-SUFFIX,adult-list.com,PROXY
 HOST-SUFFIX,adult-web-site.net,PROXY
@@ -1040,7 +1050,6 @@ HOST-SUFFIX,aflamsexhd.com,PROXY
 HOST-SUFFIX,afp.com,PROXY
 HOST-SUFFIX,afpforum.com,PROXY
 HOST-SUFFIX,afriboyz.com,PROXY
-HOST-SUFFIX,agemys.com,PROXY
 HOST-SUFFIX,aga-expo.com,PROXY
 HOST-SUFFIX,agendaweek.com,PROXY
 HOST-SUFFIX,agu.org,PROXY
@@ -1087,6 +1096,7 @@ HOST-SUFFIX,airwatchqa.com,PROXY
 HOST-SUFFIX,airwick.com,PROXY
 HOST-SUFFIX,airwick.net,PROXY
 HOST-SUFFIX,airwickarabia.com,PROXY
+HOST-SUFFIX,aisejushi.com,PROXY
 HOST-SUFFIX,aishegw.com,PROXY
 HOST-SUFFIX,aiv-cdn.net,PROXY
 HOST-SUFFIX,aiv-delivery.net,PROXY
@@ -1094,7 +1104,6 @@ HOST-SUFFIX,ajplus.net,PROXY
 HOST-SUFFIX,ajsjx.com,PROXY
 HOST-SUFFIX,ajtalk.com,PROXY
 HOST-SUFFIX,ak1.net,PROXY
-HOST-SUFFIX,akamai-content-network.com,PROXY
 HOST-SUFFIX,aka-ai.com,PROXY
 HOST-SUFFIX,aka-ai.net,PROXY
 HOST-SUFFIX,aka.ms,PROXY
@@ -1391,6 +1400,7 @@ HOST-SUFFIX,anthemgame.com,PROXY
 HOST-SUFFIX,anthemthegame.com,PROXY
 HOST-SUFFIX,anudetube.com,PROXY
 HOST-SUFFIX,anybunny.org,PROXY
+HOST-SUFFIX,anydesk.com,PROXY
 HOST-SUFFIX,anyhentai.com,PROXY
 HOST-SUFFIX,anypornhd.com,PROXY
 HOST-SUFFIX,anypornsexxx.com,PROXY
@@ -1430,7 +1440,6 @@ HOST-SUFFIX,apornotube.net,PROXY
 HOST-SUFFIX,aporntv.com,PROXY
 HOST-SUFFIX,apornvideo.com,PROXY
 HOST-SUFFIX,app-dynamics.com,PROXY
-HOST-SUFFIX,app-measurement.com,PROXY
 HOST-SUFFIX,app-measurement-cn.com,PROXY
 HOST-SUFFIX,app-store.wang,PROXY
 HOST-SUFFIX,app0le.com,PROXY
@@ -1458,7 +1467,7 @@ HOST-SUFFIX,apple-enews.com,PROXY
 HOST-SUFFIX,apple-expo.com,PROXY
 HOST-SUFFIX,apple-hk.com,PROXY
 HOST-SUFFIX,apple-ibooks.cn,PROXY
-HOST-SUFFIX,apple-iclouf.cn,PROXY
+HOST-SUFFIX,apple-icloud.cn,PROXY
 HOST-SUFFIX,apple-imac.com,PROXY
 HOST-SUFFIX,apple-inc.net,PROXY
 HOST-SUFFIX,apple-itunes.cn,PROXY
@@ -1474,6 +1483,7 @@ HOST-SUFFIX,apple-store.wang,PROXY
 HOST-SUFFIX,apple-usa.net,PROXY
 HOST-SUFFIX,apple.cn,PROXY
 HOST-SUFFIX,apple.co,PROXY
+HOST-SUFFIX,apple.com,PROXY
 HOST-SUFFIX,apple.com.co,PROXY
 HOST-SUFFIX,apple.comscoreresearch.com,PROXY
 HOST-SUFFIX,apple.me,PROXY
@@ -1719,7 +1729,7 @@ HOST-SUFFIX,attcorp.cn,PROXY
 HOST-SUFFIX,attdns.com,PROXY
 HOST-SUFFIX,attdns.net,PROXY
 HOST-SUFFIX,attexperts.com,PROXY
-HOST-SUFFIX,attPROXY.net,PROXY
+HOST-SUFFIX,attglobal.net,PROXY
 HOST-SUFFIX,attinnovationspace.com,PROXY
 HOST-SUFFIX,attinternetservice.com,PROXY
 HOST-SUFFIX,attjoy.com,PROXY
@@ -1839,7 +1849,7 @@ HOST-SUFFIX,awsedstart.com,PROXY
 HOST-SUFFIX,awseducate.com,PROXY
 HOST-SUFFIX,awseducate.net,PROXY
 HOST-SUFFIX,awseducate.org,PROXY
-HOST-SUFFIX,awsPROXYaccelerator.com,PROXY
+HOST-SUFFIX,awsglobalaccelerator.com,PROXY
 HOST-SUFFIX,awsloft-johannesburg.com,PROXY
 HOST-SUFFIX,awsloft-stockholm.com,PROXY
 HOST-SUFFIX,awssecworkshops.com,PROXY
@@ -1911,7 +1921,7 @@ HOST-SUFFIX,azureserviceprofiler.com,PROXY
 HOST-SUFFIX,azuresmartspaces.net,PROXY
 HOST-SUFFIX,azurestackvalidation.com,PROXY
 HOST-SUFFIX,b-eroland.net,PROXY
-HOST-SUFFIX,b-ok.PROXY,PROXY
+HOST-SUFFIX,b-ok.global,PROXY
 HOST-SUFFIX,b-ok.org,PROXY
 HOST-SUFFIX,b2clogin.cn,PROXY
 HOST-SUFFIX,b3boos.com,PROXY
@@ -1943,6 +1953,7 @@ HOST-SUFFIX,babycondom.com,PROXY
 HOST-SUFFIX,babyzone.com,PROXY
 HOST-SUFFIX,backdoorlesbians.com,PROXY
 HOST-SUFFIX,backroomcastingcouch.com,PROXY
+HOST-SUFFIX,bacon.com,PROXY
 HOST-SUFFIX,badaas.com,PROXY
 HOST-SUFFIX,badasianpussy.com,PROXY
 HOST-SUFFIX,badgen.net,PROXY
@@ -2024,6 +2035,7 @@ HOST-SUFFIX,bcicdn.com,PROXY
 HOST-SUFFIX,bcove.video,PROXY
 HOST-SUFFIX,bcrncdn.com,PROXY
 HOST-SUFFIX,bcvp0rtal.com,PROXY
+HOST-SUFFIX,bcy01.com,PROXY
 HOST-SUFFIX,bdawnvr.xyz,PROXY
 HOST-SUFFIX,bdn.dev,PROXY
 HOST-SUFFIX,bdsm-mov.net,PROXY
@@ -2321,6 +2333,7 @@ HOST-SUFFIX,bellesa.co,PROXY
 HOST-SUFFIX,bellotube.com,PROXY
 HOST-SUFFIX,bellsouth.net,PROXY
 HOST-SUFFIX,benaughty.fun,PROXY
+HOST-SUFFIX,bengalisexvideos.com,PROXY
 HOST-SUFFIX,benliton.com,PROXY
 HOST-SUFFIX,berkanawireless.com,PROXY
 HOST-SUFFIX,berlincompanions.com,PROXY
@@ -2367,6 +2380,7 @@ HOST-SUFFIX,bestiality.guru,PROXY
 HOST-SUFFIX,bestialitysextaboo.com,PROXY
 HOST-SUFFIX,bestiphonestuff.com,PROXY
 HOST-SUFFIX,bestjapanesepornsites.com,PROXY
+HOST-SUFFIX,bestjavporn.net,PROXY
 HOST-SUFFIX,bestkinky.com,PROXY
 HOST-SUFFIX,bestlistofporn.com,PROXY
 HOST-SUFFIX,bestmallawards.com,PROXY
@@ -2486,6 +2500,7 @@ HOST-SUFFIX,bioporno.com,PROXY
 HOST-SUFFIX,biorxiv.org,PROXY
 HOST-SUFFIX,bioware.com,PROXY
 HOST-SUFFIX,biowarestore.com,PROXY
+HOST-SUFFIX,biqle.org,PROXY
 HOST-SUFFIX,bisheng.cn,PROXY
 HOST-SUFFIX,bishengcompiler.cn,PROXY
 HOST-SUFFIX,bisq.network,PROXY
@@ -2584,6 +2599,7 @@ HOST-SUFFIX,bluemix.com,PROXY
 HOST-SUFFIX,bluemix.net,PROXY
 HOST-SUFFIX,bluestacks.com,PROXY
 HOST-SUFFIX,bluffyporn.com,PROXY
+HOST-SUFFIX,blurams.com,PROXY
 HOST-SUFFIX,blz-contentstack.com,PROXY
 HOST-SUFFIX,blzstatic.cn,PROXY
 HOST-SUFFIX,bmia.org,PROXY
@@ -3698,6 +3714,7 @@ HOST-SUFFIX,dacebook.com,PROXY
 HOST-SUFFIX,dachix.com,PROXY
 HOST-SUFFIX,daddyslilangel.com,PROXY
 HOST-SUFFIX,daftsex-hd.com,PROXY
+HOST-SUFFIX,daftsex.com,PROXY
 HOST-SUFFIX,dagfs.com,PROXY
 HOST-SUFFIX,dailybasis.com,PROXY
 HOST-SUFFIX,dailymail.com,PROXY
@@ -3730,6 +3747,7 @@ HOST-SUFFIX,darwinsource.com,PROXY
 HOST-SUFFIX,darwinsource.org,PROXY
 HOST-SUFFIX,darwinsourcecode.com,PROXY
 HOST-SUFFIX,dashwood360.com,PROXY
+HOST-SUFFIX,dastanhisexy.cc,PROXY
 HOST-SUFFIX,dat.foundation,PROXY
 HOST-SUFFIX,data.com,PROXY
 HOST-SUFFIX,dataliberation.org,PROXY
@@ -3754,7 +3772,6 @@ HOST-SUFFIX,dd-cdn.origin-apple.com.akadns.net,PROXY
 HOST-SUFFIX,ddd-smart.net,PROXY
 HOST-SUFFIX,ddg.co,PROXY
 HOST-SUFFIX,dditsadn.com,PROXY
-HOST-SUFFIX,ddxs.com,PROXY
 HOST-SUFFIX,de1lib.org,PROXY
 HOST-SUFFIX,deadspacegame.com,PROXY
 HOST-SUFFIX,dealbay.com,PROXY
@@ -4253,6 +4270,7 @@ HOST-SUFFIX,dvdtrailertube.com,PROXY
 HOST-SUFFIX,dvh30n.vip,PROXY
 HOST-SUFFIX,dweb.link,PROXY
 HOST-SUFFIX,dx9527.cc,PROXY
+HOST-SUFFIX,dxyav.co,PROXY
 HOST-SUFFIX,dykycl.com,PROXY
 HOST-SUFFIX,dynacw.com,PROXY
 HOST-SUFFIX,dynafleetonline.com,PROXY
@@ -4381,7 +4399,7 @@ HOST-SUFFIX,ebayfashion.net,PROXY
 HOST-SUFFIX,ebayforcharity.org,PROXY
 HOST-SUFFIX,ebayforeclosure.org,PROXY
 HOST-SUFFIX,ebayfrance.com,PROXY
-HOST-SUFFIX,ebayPROXYshipping.com,PROXY
+HOST-SUFFIX,ebayglobalshipping.com,PROXY
 HOST-SUFFIX,ebaygroup.com,PROXY
 HOST-SUFFIX,ebayhabit.com,PROXY
 HOST-SUFFIX,ebayheels.com,PROXY
@@ -4946,7 +4964,7 @@ HOST-SUFFIX,facegbok.com,PROXY
 HOST-SUFFIX,facegbook.com,PROXY
 HOST-SUFFIX,faceid99.com,PROXY
 HOST-SUFFIX,faceid99.net,PROXY
-HOST-SUFFIX,faceidPROXY.com,PROXY
+HOST-SUFFIX,faceidglobal.com,PROXY
 HOST-SUFFIX,faceobk.com,PROXY
 HOST-SUFFIX,faceobok.com,PROXY
 HOST-SUFFIX,faceobook.com,PROXY
@@ -5441,10 +5459,12 @@ HOST-SUFFIX,frcasquesbeats.com,PROXY
 HOST-SUFFIX,free-3d-porn.com,PROXY
 HOST-SUFFIX,free-aa.com,PROXY
 HOST-SUFFIX,free-abbywinters.com,PROXY
+HOST-SUFFIX,free-erobooks.com,PROXY
 HOST-SUFFIX,free-sns.com,PROXY
 HOST-SUFFIX,free-strip-games.com,PROXY
 HOST-SUFFIX,free-wap-tube.com,PROXY
 HOST-SUFFIX,free-xxx-porn.org,PROXY
+HOST-SUFFIX,free00.com,PROXY
 HOST-SUFFIX,free18.net,PROXY
 HOST-SUFFIX,free3dadultgames.com,PROXY
 HOST-SUFFIX,free64all.com,PROXY
@@ -5533,6 +5553,7 @@ HOST-SUFFIX,ftimg.net,PROXY
 HOST-SUFFIX,ftopx.com,PROXY
 HOST-SUFFIX,ftvgirls.com,PROXY
 HOST-SUFFIX,ftvmilfs.com,PROXY
+HOST-SUFFIX,fu62.vip,PROXY
 HOST-SUFFIX,fuchsia.dev,PROXY
 HOST-SUFFIX,fuck-xxx-movies.com,PROXY
 HOST-SUFFIX,fuck.com,PROXY
@@ -5579,6 +5600,7 @@ HOST-SUFFIX,funshemale.com,PROXY
 HOST-SUFFIX,fuqqt.com,PROXY
 HOST-SUFFIX,furaffinity.net,PROXY
 HOST-SUFFIX,furrypornvideos.com,PROXY
+HOST-SUFFIX,furuke.com,PROXY
 HOST-SUFFIX,fury.blog,PROXY
 HOST-SUFFIX,fury.co,PROXY
 HOST-SUFFIX,fury.dev,PROXY
@@ -5817,13 +5839,13 @@ HOST-SUFFIX,gladporn.com,PROXY
 HOST-SUFFIX,glam0ur.com,PROXY
 HOST-SUFFIX,glamourtits.com,PROXY
 HOST-SUFFIX,glasamerike.net,PROXY
-HOST-SUFFIX,PROXY-sci.org,PROXY
-HOST-SUFFIX,PROXYedu.org,PROXY
-HOST-SUFFIX,PROXYriskregulator.com,PROXY
-HOST-SUFFIX,PROXYsecurity.org,PROXY
-HOST-SUFFIX,PROXYsign-media.com,PROXY
-HOST-SUFFIX,PROXYsign.net,PROXY
-HOST-SUFFIX,PROXYspec.com,PROXY
+HOST-SUFFIX,global-sci.org,PROXY
+HOST-SUFFIX,globaledu.org,PROXY
+HOST-SUFFIX,globalriskregulator.com,PROXY
+HOST-SUFFIX,globalsecurity.org,PROXY
+HOST-SUFFIX,globalsign-media.com,PROXY
+HOST-SUFFIX,globalsign.net,PROXY
+HOST-SUFFIX,globalspec.com,PROXY
 HOST-SUFFIX,gloporn.com,PROXY
 HOST-SUFFIX,gloryholefucking.com,PROXY
 HOST-SUFFIX,gloryholeswallow.com,PROXY
@@ -5833,6 +5855,8 @@ HOST-SUFFIX,gmnetworks.net,PROXY
 HOST-SUFFIX,gmoney.org,PROXY
 HOST-SUFFIX,gnom-cham.com,PROXY
 HOST-SUFFIX,gnu.org,PROXY
+HOST-SUFFIX,gnzi.xyz,PROXY
+HOST-SUFFIX,gnzi1.top,PROXY
 HOST-SUFFIX,go-disneyworldgo.com,PROXY
 HOST-SUFFIX,go-gaytube.com,PROXY
 HOST-SUFFIX,go-lang.com,PROXY
@@ -5866,6 +5890,7 @@ HOST-SUFFIX,gonglchuangl.net,PROXY
 HOST-SUFFIX,gongyichuangyi.net,PROXY
 HOST-SUFFIX,gonike.com,PROXY
 HOST-SUFFIX,gonzo-movies.com,PROXY
+HOST-SUFFIX,gonzo.com,PROXY
 HOST-SUFFIX,good-gay.com,PROXY
 HOST-SUFFIX,gooddaychicago.com,PROXY
 HOST-SUFFIX,goodporno.cc,PROXY
@@ -5964,7 +5989,7 @@ HOST-SUFFIX,grss-ieee.org,PROXY
 HOST-SUFFIX,grupobmw.com,PROXY
 HOST-SUFFIX,gscanada.info,PROXY
 HOST-SUFFIX,gsccdn.com,PROXY
-HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.PROXYredir.akadns.net,PROXY
+HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net,PROXY
 HOST-SUFFIX,gspe19-cn.ls-apple.com.akadns.net,PROXY
 HOST-SUFFIX,gstatic-cn.com,PROXY
 HOST-SUFFIX,gstaticcnapps.cn,PROXY
@@ -6270,6 +6295,7 @@ HOST-SUFFIX,herokussl.com,PROXY
 HOST-SUFFIX,herringnetwork.com,PROXY
 HOST-SUFFIX,hetzner.cloud,PROXY
 HOST-SUFFIX,hetzner.com,PROXY
+HOST-SUFFIX,hexatronik.com,PROXY
 HOST-SUFFIX,hey.boo,PROXY
 HOST-SUFFIX,heydoga.com,PROXY
 HOST-SUFFIX,heydouga.com,PROXY
@@ -6419,6 +6445,7 @@ HOST-SUFFIX,hotporntubes.com,PROXY
 HOST-SUFFIX,hotsexvideo.mobi,PROXY
 HOST-SUFFIX,hotsexydolls.com,PROXY
 HOST-SUFFIX,hotstar-cdn.net,PROXY
+HOST-SUFFIX,hotstar-labs.com,PROXY
 HOST-SUFFIX,hotstar.com,PROXY
 HOST-SUFFIX,hotstarext.com,PROXY
 HOST-SUFFIX,hotstunners.com,PROXY
@@ -6590,6 +6617,7 @@ HOST-SUFFIX,huffpostarabi.com,PROXY
 HOST-SUFFIX,huffpostbrasil.com,PROXY
 HOST-SUFFIX,huffpostmaghreb.com,PROXY
 HOST-SUFFIX,hugedildo.com,PROXY
+HOST-SUFFIX,huj-pizda.com,PROXY
 HOST-SUFFIX,huloo.cc,PROXY
 HOST-SUFFIX,hulu.jp,PROXY
 HOST-SUFFIX,huluaction.com,PROXY
@@ -6674,6 +6702,7 @@ HOST-SUFFIX,icloud-apple.cn,PROXY
 HOST-SUFFIX,icloud-cdn.icloud.com.akadns.net,PROXY
 HOST-SUFFIX,icloud-content.com,PROXY
 HOST-SUFFIX,icloud-isupport.com,PROXY
+HOST-SUFFIX,icloud.com,PROXY
 HOST-SUFFIX,icloud.net.cn,PROXY
 HOST-SUFFIX,icloud.org,PROXY
 HOST-SUFFIX,icloudads.net,PROXY
@@ -6750,7 +6779,7 @@ HOST-SUFFIX,ig.me,PROXY
 HOST-SUFFIX,igaychat.com,PROXY
 HOST-SUFFIX,igcdn.com,PROXY
 HOST-SUFFIX,igetnaughty.com,PROXY
-HOST-SUFFIX,igi-PROXY.com,PROXY
+HOST-SUFFIX,igi-global.com,PROXY
 HOST-SUFFIX,igkbroker.com,PROXY
 HOST-SUFFIX,ignites.com,PROXY
 HOST-SUFFIX,ignitesasia.com,PROXY
@@ -6763,6 +6792,7 @@ HOST-SUFFIX,igtv.com,PROXY
 HOST-SUFFIX,ihappystudio.cn,PROXY
 HOST-SUFFIX,iherb.com,PROXY
 HOST-SUFFIX,iijav.com,PROXY
+HOST-SUFFIX,iirmll.com,PROXY
 HOST-SUFFIX,ijavhd.com,PROXY
 HOST-SUFFIX,ikea.cn,PROXY
 HOST-SUFFIX,ikea.com,PROXY
@@ -6805,7 +6835,7 @@ HOST-SUFFIX,imagecurl.com,PROXY
 HOST-SUFFIX,imagecurl.org,PROXY
 HOST-SUFFIX,imagepost.com,PROXY
 HOST-SUFFIX,images.apple.com.akadns.net,PROXY
-HOST-SUFFIX,images.apple.com.edgekey.net.PROXYredir.akadns.net,PROXY
+HOST-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net,PROXY
 HOST-SUFFIX,imageshack.com,PROXY
 HOST-SUFFIX,imagetwist.com,PROXY
 HOST-SUFFIX,imageworks.com,PROXY
@@ -6879,6 +6909,7 @@ HOST-SUFFIX,ingka-system.cn,PROXY
 HOST-SUFFIX,ingka.com,PROXY
 HOST-SUFFIX,ingka.dev,PROXY
 HOST-SUFFIX,ingkacentres.com,PROXY
+HOST-SUFFIX,ingyenszexvideo.top,PROXY
 HOST-SUFFIX,inhumanity.com,PROXY
 HOST-SUFFIX,inikesneakers.com,PROXY
 HOST-SUFFIX,init-p01md-lb.push-apple.com.akadns.net,PROXY
@@ -7092,6 +7123,7 @@ HOST-SUFFIX,iqq2.cc,PROXY
 HOST-SUFFIX,iqq3.cc,PROXY
 HOST-SUFFIX,iqqtv.net,PROXY
 HOST-SUFFIX,iranianboobs.com,PROXY
+HOST-SUFFIX,iransextv.com,PROXY
 HOST-SUFFIX,iranx.net,PROXY
 HOST-SUFFIX,iromod91.info,PROXY
 HOST-SUFFIX,irotv301.top,PROXY
@@ -7104,6 +7136,7 @@ HOST-SUFFIX,isheppc.com,PROXY
 HOST-SUFFIX,isiknowledge.com,PROXY
 HOST-SUFFIX,iskoot.com,PROXY
 HOST-SUFFIX,islamiccenterofnewlondon.com,PROXY
+HOST-SUFFIX,iss138.com,PROXY
 HOST-SUFFIX,issitedownrightnow.com,PROXY
 HOST-SUFFIX,issquaredown.com,PROXY
 HOST-SUFFIX,issquareup.com,PROXY
@@ -7124,7 +7157,7 @@ HOST-SUFFIX,itsoc.org,PROXY
 HOST-SUFFIX,itu.int,PROXY
 HOST-SUFFIX,itunbes.com,PROXY
 HOST-SUFFIX,ituneas.com,PROXY
-HOST-SUFFIX,itunes−apple.cn,PROXY
+HOST-SUFFIX,itunes-apple.cn,PROXY
 HOST-SUFFIX,itunes-apple.com.akadns.net,PROXY
 HOST-SUFFIX,itunes-radio.net,PROXY
 HOST-SUFFIX,itunes.co,PROXY
@@ -7156,6 +7189,7 @@ HOST-SUFFIX,iwantporn.net,PROXY
 HOST-SUFFIX,iwaponline.com,PROXY
 HOST-SUFFIX,iwork.com,PROXY
 HOST-SUFFIX,iwork.wang,PROXY
+HOST-SUFFIX,iwyn138.com,PROXY
 HOST-SUFFIX,iyalc.com,PROXY
 HOST-SUFFIX,iyottube.com,PROXY
 HOST-SUFFIX,izatcloud.net,PROXY
@@ -7207,6 +7241,7 @@ HOST-SUFFIX,java.net,PROXY
 HOST-SUFFIX,javbabe.net,PROXY
 HOST-SUFFIX,javbangers.com,PROXY
 HOST-SUFFIX,javbobo.com,PROXY
+HOST-SUFFIX,javbooks.com,PROXY
 HOST-SUFFIX,javbraze.com,PROXY
 HOST-SUFFIX,javbus22.com,PROXY
 HOST-SUFFIX,javbuz.com,PROXY
@@ -7216,7 +7251,9 @@ HOST-SUFFIX,javcdn.cc,PROXY
 HOST-SUFFIX,javcl.com,PROXY
 HOST-SUFFIX,javct.net,PROXY
 HOST-SUFFIX,javcup.com,PROXY
+HOST-SUFFIX,javdb.com,PROXY
 HOST-SUFFIX,javdisk.com,PROXY
+HOST-SUFFIX,javdock.com,PROXY
 HOST-SUFFIX,javdoe.com,PROXY
 HOST-SUFFIX,javdove.com,PROXY
 HOST-SUFFIX,javdove8.xyz,PROXY
@@ -7247,6 +7284,7 @@ HOST-SUFFIX,javher.com,PROXY
 HOST-SUFFIX,javheroine.com,PROXY
 HOST-SUFFIX,javhihi.com,PROXY
 HOST-SUFFIX,javhub.me,PROXY
+HOST-SUFFIX,javidol.org,PROXY
 HOST-SUFFIX,javjack.com,PROXY
 HOST-SUFFIX,javjunkies.com,PROXY
 HOST-SUFFIX,javkiki.com,PROXY
@@ -7300,6 +7338,7 @@ HOST-SUFFIX,javxxx.me,PROXY
 HOST-SUFFIX,javynow.com,PROXY
 HOST-SUFFIX,jayspov.net,PROXY
 HOST-SUFFIX,jbe-platform.com,PROXY
+HOST-SUFFIX,jbk005.com,PROXY
 HOST-SUFFIX,jdavsp.pw,PROXY
 HOST-SUFFIX,jdbimgs.com,PROXY
 HOST-SUFFIX,jdbstatic.com,PROXY
@@ -7540,7 +7579,7 @@ HOST-SUFFIX,ksyp10.com,PROXY
 HOST-SUFFIX,ktvu.com,PROXY
 HOST-SUFFIX,kuaipa.net,PROXY
 HOST-SUFFIX,kuanrenxs.com,PROXY
-HOST-SUFFIX,kubakuba.PROXY,PROXY
+HOST-SUFFIX,kubakuba.global,PROXY
 HOST-SUFFIX,kubakuba1996.com,PROXY
 HOST-SUFFIX,kubeacademy.com,PROXY
 HOST-SUFFIX,kubeapps.com,PROXY
@@ -7663,7 +7702,7 @@ HOST-SUFFIX,libsolutions.app,PROXY
 HOST-SUFFIX,libsolutions.net,PROXY
 HOST-SUFFIX,licdn.cn,PROXY
 HOST-SUFFIX,licensebuttons.net,PROXY
-HOST-SUFFIX,life-PROXY.org,PROXY
+HOST-SUFFIX,life-global.org,PROXY
 HOST-SUFFIX,lifeselector.com,PROXY
 HOST-SUFFIX,lifewire.com,PROXY
 HOST-SUFFIX,lightbridge.com,PROXY
@@ -7699,7 +7738,6 @@ HOST-SUFFIX,linkedin.cn,PROXY
 HOST-SUFFIX,linkjunkies.com,PROXY
 HOST-SUFFIX,linksalpha.com,PROXY
 HOST-SUFFIX,linkshit.com,PROXY
-HOST-SUFFIX,linktr.ee,PROXY
 HOST-SUFFIX,linotype.com,PROXY
 HOST-SUFFIX,linseysworld.com,PROXY
 HOST-SUFFIX,linux.org,PROXY
@@ -7806,6 +7844,7 @@ HOST-SUFFIX,lsj40.xyz,PROXY
 HOST-SUFFIX,lsnzxzy1.com,PROXY
 HOST-SUFFIX,lspimg.com,PROXY
 HOST-SUFFIX,lss55.com,PROXY
+HOST-SUFFIX,ltube.life,PROXY
 HOST-SUFFIX,lua.org,PROXY
 HOST-SUFFIX,lubetube.com,PROXY
 HOST-SUFFIX,lucahmelayu.club,PROXY
@@ -7834,9 +7873,6 @@ HOST-SUFFIX,m-power.com,PROXY
 HOST-SUFFIX,m2m.com,PROXY
 HOST-SUFFIX,m5ir5np1.shop,PROXY
 HOST-SUFFIX,ma1lib.org,PROXY
-HOST-SUFFIX,maa1809.com,PROXY
-HOST-SUFFIX,maa1815.com,PROXY
-HOST-SUFFIX,maa1818.com,PROXY
 HOST-SUFFIX,mac-mini.com,PROXY
 HOST-SUFFIX,mac.com,PROXY
 HOST-SUFFIX,mac.wang,PROXY
@@ -7937,7 +7973,7 @@ HOST-SUFFIX,manorama.com,PROXY
 HOST-SUFFIX,manoramanews.com,PROXY
 HOST-SUFFIX,manoramaonline.com,PROXY
 HOST-SUFFIX,manototv.com,PROXY
-HOST-SUFFIX,mansionPROXY.com,PROXY
+HOST-SUFFIX,mansionglobal.com,PROXY
 HOST-SUFFIX,mansurfer.com,PROXY
 HOST-SUFFIX,mantochichi.com,PROXY
 HOST-SUFFIX,manurefetish.com,PROXY
@@ -8344,6 +8380,7 @@ HOST-SUFFIX,mktdns.com,PROXY
 HOST-SUFFIX,mkto-c0100.com,PROXY
 HOST-SUFFIX,mktorest.com,PROXY
 HOST-SUFFIX,mktroute.com,PROXY
+HOST-SUFFIX,mm9841.cc,PROXY
 HOST-SUFFIX,mm9c63ae.xyz,PROXY
 HOST-SUFFIX,mmaaxx.com,PROXY
 HOST-SUFFIX,mmdnn.com,PROXY
@@ -8400,6 +8437,7 @@ HOST-SUFFIX,momsteachsex.info,PROXY
 HOST-SUFFIX,momsyoungboys.net,PROXY
 HOST-SUFFIX,momtarts3d.com,PROXY
 HOST-SUFFIX,momtube.club,PROXY
+HOST-SUFFIX,monaitv.me,PROXY
 HOST-SUFFIX,monbeats2013.com,PROXY
 HOST-SUFFIX,moneyswift.online,PROXY
 HOST-SUFFIX,moneywithfacebook.com,PROXY
@@ -8537,6 +8575,7 @@ HOST-SUFFIX,msauth.cn,PROXY
 HOST-SUFFIX,msauthimages.cn,PROXY
 HOST-SUFFIX,mschallenge2018.com,PROXY
 HOST-SUFFIX,msdn.com,PROXY
+HOST-SUFFIX,msflj.vip,PROXY
 HOST-SUFFIX,msft.info,PROXY
 HOST-SUFFIX,msft.net,PROXY
 HOST-SUFFIX,msftauth.cn,PROXY
@@ -8605,7 +8644,7 @@ HOST-SUFFIX,my3dhentai.com,PROXY
 HOST-SUFFIX,my45.com,PROXY
 HOST-SUFFIX,my5.tv,PROXY
 HOST-SUFFIX,my9nj.com,PROXY
-HOST-SUFFIX,myaccountPROXYcash.com,PROXY
+HOST-SUFFIX,myaccountglobalcash.com,PROXY
 HOST-SUFFIX,myamateurgirls.net,PROXY
 HOST-SUFFIX,myanmar-porn.com,PROXY
 HOST-SUFFIX,myappleid.com,PROXY
@@ -8907,12 +8946,13 @@ HOST-SUFFIX,nextstop.com,PROXY
 HOST-SUFFIX,nexusmods.com,PROXY
 HOST-SUFFIX,nflhotsalejerseys.com,PROXY
 HOST-SUFFIX,nflxsearch.net,PROXY
-HOST-SUFFIX,nfsc.PROXY,PROXY
+HOST-SUFFIX,nfsc.global,PROXY
 HOST-SUFFIX,nfscdict.com,PROXY
 HOST-SUFFIX,nfscofficial.com,PROXY
 HOST-SUFFIX,nfsworld.com,PROXY
 HOST-SUFFIX,nftstorage.link,PROXY
 HOST-SUFFIX,ngeo.com,PROXY
+HOST-SUFFIX,ngfiles.com,PROXY
 HOST-SUFFIX,nginx.com,PROXY
 HOST-SUFFIX,nginx.org,PROXY
 HOST-SUFFIX,nhentai.com,PROXY
@@ -9108,6 +9148,7 @@ HOST-SUFFIX,nodesource.com,PROXY
 HOST-SUFFIX,noisullifb.com,PROXY
 HOST-SUFFIX,nokiantyres.cn,PROXY
 HOST-SUFFIX,nokiantyres.com,PROXY
+HOST-SUFFIX,nomachine.com,PROXY
 HOST-SUFFIX,nomulus.foo,PROXY
 HOST-SUFFIX,nonktube.com,PROXY
 HOST-SUFFIX,nonstopfap.com,PROXY
@@ -9143,6 +9184,7 @@ HOST-SUFFIX,ntdtv-dc.com,PROXY
 HOST-SUFFIX,ntdtv.com,PROXY
 HOST-SUFFIX,ntdvn.com,PROXY
 HOST-SUFFIX,nu-bay.com,PROXY
+HOST-SUFFIX,nu36.vip,PROXY
 HOST-SUFFIX,nubilefilms.com,PROXY
 HOST-SUFFIX,nubiles-casting.com,PROXY
 HOST-SUFFIX,nubiles-porn.com,PROXY
@@ -9208,6 +9250,7 @@ HOST-SUFFIX,nvidiaforhp.com,PROXY
 HOST-SUFFIX,nvidiagrid.net,PROXY
 HOST-SUFFIX,nwcdcloud.cn,PROXY
 HOST-SUFFIX,nwcdinfosec.cn,PROXY
+HOST-SUFFIX,nwxs8.com,PROXY
 HOST-SUFFIX,nxta.org,PROXY
 HOST-SUFFIX,nyaa.net,PROXY
 HOST-SUFFIX,nyansa.com,PROXY
@@ -9375,7 +9418,6 @@ HOST-SUFFIX,opte.org,PROXY
 HOST-SUFFIX,optica.org,PROXY
 HOST-SUFFIX,opticsforthecloud.net,PROXY
 HOST-SUFFIX,optimumssl.com,PROXY
-HOST-SUFFIX,oraclecloud.com,PROXY
 HOST-SUFFIX,oraclefoundation.org,PROXY
 HOST-SUFFIX,oracleimg.com,PROXY
 HOST-SUFFIX,oranum.com,PROXY
@@ -9426,6 +9468,7 @@ HOST-SUFFIX,oudoll.com,PROXY
 HOST-SUFFIX,ouplaw.com,PROXY
 HOST-SUFFIX,ouroath.com,PROXY
 HOST-SUFFIX,oursexgames.com,PROXY
+HOST-SUFFIX,ourshdtv.com,PROXY
 HOST-SUFFIX,ourshemales.com,PROXY
 HOST-SUFFIX,outdoorpublicsex.com,PROXY
 HOST-SUFFIX,outingsapp.com,PROXY
@@ -9666,7 +9709,7 @@ HOST-SUFFIX,pbabes.com,PROXY
 HOST-SUFFIX,pbiwebcontent.cn,PROXY
 HOST-SUFFIX,pc.com,PROXY
 HOST-SUFFIX,pccw.com,PROXY
-HOST-SUFFIX,pccwPROXY.com,PROXY
+HOST-SUFFIX,pccwglobal.com,PROXY
 HOST-SUFFIX,pccwsolutions.com,PROXY
 HOST-SUFFIX,pcre.org,PROXY
 HOST-SUFFIX,pctlwm.com,PROXY
@@ -9726,6 +9769,7 @@ HOST-SUFFIX,phantomjs.org,PROXY
 HOST-SUFFIX,pheonix.money,PROXY
 HOST-SUFFIX,phimsex47.club,PROXY
 HOST-SUFFIX,phimsexhentai.me,PROXY
+HOST-SUFFIX,phimsexkhongche.cyou,PROXY
 HOST-SUFFIX,phimsexnhanh.club,PROXY
 HOST-SUFFIX,photo-image.monster,PROXY
 HOST-SUFFIX,photolia.net,PROXY
@@ -9905,6 +9949,7 @@ HOST-SUFFIX,pornacho.com,PROXY
 HOST-SUFFIX,pornadoo.com,PROXY
 HOST-SUFFIX,pornaf.com,PROXY
 HOST-SUFFIX,pornaffected.com,PROXY
+HOST-SUFFIX,pornandxxxvideos.com,PROXY
 HOST-SUFFIX,pornaroma.com,PROXY
 HOST-SUFFIX,pornav.co,PROXY
 HOST-SUFFIX,pornaxo.com,PROXY
@@ -10281,6 +10326,7 @@ HOST-SUFFIX,ptapjmp.com,PROXY
 HOST-SUFFIX,ptt2.cc,PROXY
 HOST-SUFFIX,ptt3.cc,PROXY
 HOST-SUFFIX,ptzwx.com,PROXY
+HOST-SUFFIX,pu82.vip,PROXY
 HOST-SUFFIX,pubgno1.cn,PROXY
 HOST-SUFFIX,public-sex-porn.com,PROXY
 HOST-SUFFIX,public-trust.com,PROXY
@@ -10388,7 +10434,7 @@ HOST-SUFFIX,quipelements.com,PROXY
 HOST-SUFFIX,quiz.directory,PROXY
 HOST-SUFFIX,qumingwz.com,PROXY
 HOST-SUFFIX,quotable.com,PROXY
-HOST-SUFFIX,quovadisPROXY.com,PROXY
+HOST-SUFFIX,quovadisglobal.com,PROXY
 HOST-SUFFIX,qwant.com,PROXY
 HOST-SUFFIX,qwapi.com,PROXY
 HOST-SUFFIX,r-project.org,PROXY
@@ -10453,10 +10499,11 @@ HOST-SUFFIX,rbrandlibrary.com,PROXY
 HOST-SUFFIX,rbsgr.com,PROXY
 HOST-SUFFIX,rbspeakup.com,PROXY
 HOST-SUFFIX,rclon.com,PROXY
+HOST-SUFFIX,re25.vip,PROXY
 HOST-SUFFIX,rea-asia.com,PROXY
 HOST-SUFFIX,rea-group.com,PROXY
 HOST-SUFFIX,rea.design,PROXY
-HOST-SUFFIX,rea.PROXY,PROXY
+HOST-SUFFIX,rea.global,PROXY
 HOST-SUFFIX,rea.tech,PROXY
 HOST-SUFFIX,reabble.cn,PROXY
 HOST-SUFFIX,reabble.com,PROXY
@@ -10541,6 +10588,7 @@ HOST-SUFFIX,redwap.pro,PROXY
 HOST-SUFFIX,redxxx.cc,PROXY
 HOST-SUFFIX,redxxxvideos.com,PROXY
 HOST-SUFFIX,redzonechannel.com,PROXY
+HOST-SUFFIX,ree007.xyz,PROXY
 HOST-SUFFIX,reform-apple.com,PROXY
 HOST-SUFFIX,regex101.com,PROXY
 HOST-SUFFIX,regiongold.com,PROXY
@@ -10626,6 +10674,7 @@ HOST-SUFFIX,royalsocietypublishing.org,PROXY
 HOST-SUFFIX,rplay.live,PROXY
 HOST-SUFFIX,rpmfusion.org,PROXY
 HOST-SUFFIX,rprimelab.com,PROXY
+HOST-SUFFIX,rrs1.xyz,PROXY
 HOST-SUFFIX,rrtis.com,PROXY
 HOST-SUFFIX,rstatic.net,PROXY
 HOST-SUFFIX,rt.com,PROXY
@@ -10653,6 +10702,7 @@ HOST-SUFFIX,rupress.org,PROXY
 HOST-SUFFIX,rushporn.online,PROXY
 HOST-SUFFIX,russianrape.org,PROXY
 HOST-SUFFIX,rust-lang.org,PROXY
+HOST-SUFFIX,rustdesk.com,PROXY
 HOST-SUFFIX,ruvideos.net,PROXY
 HOST-SUFFIX,s-bluemix.net,PROXY
 HOST-SUFFIX,s-books.com,PROXY
@@ -10701,6 +10751,7 @@ HOST-SUFFIX,sankei-tours.com,PROXY
 HOST-SUFFIX,sankie.net,PROXY
 HOST-SUFFIX,sanspo.com,PROXY
 HOST-SUFFIX,sanvaras.com,PROXY
+HOST-SUFFIX,sanwapub.com,PROXY
 HOST-SUFFIX,sapphicerotica.com,PROXY
 HOST-SUFFIX,sapphicpornonly.com,PROXY
 HOST-SUFFIX,sarajevopodopsadom.com,PROXY
@@ -10708,7 +10759,6 @@ HOST-SUFFIX,sarapbabe.com,PROXY
 HOST-SUFFIX,sarennasworld.com,PROXY
 HOST-SUFFIX,satan18av.com,PROXY
 HOST-SUFFIX,satnym.com,PROXY
-HOST-SUFFIX,saucenao.com,PROXY
 HOST-SUFFIX,savitabhabhi.com,PROXY
 HOST-SUFFIX,savitabhabhi.vip,PROXY
 HOST-SUFFIX,savitahd.net,PROXY
@@ -10779,6 +10829,7 @@ HOST-SUFFIX,scpwiki.com,PROXY
 HOST-SUFFIX,screenwisetrends.com,PROXY
 HOST-SUFFIX,screenwisetrendspanel.com,PROXY
 HOST-SUFFIX,screw-my-wife.com,PROXY
+HOST-SUFFIX,scrolller.com,PROXY
 HOST-SUFFIX,scsentry.cn,PROXY
 HOST-SUFFIX,sdcountybmw.com,PROXY
 HOST-SUFFIX,seagroup.com,PROXY
@@ -10893,6 +10944,7 @@ HOST-SUFFIX,sexhdmovs.com,PROXY
 HOST-SUFFIX,sexhotgames.com,PROXY
 HOST-SUFFIX,sexhub.red,PROXY
 HOST-SUFFIX,sexhubhd.com,PROXY
+HOST-SUFFIX,sexifilm.top,PROXY
 HOST-SUFFIX,sexiframe.com,PROXY
 HOST-SUFFIX,sexindians.cc,PROXY
 HOST-SUFFIX,sexiranian.party,PROXY
@@ -10910,6 +10962,8 @@ HOST-SUFFIX,sexmutant.com,PROXY
 HOST-SUFFIX,sexnaweb.net,PROXY
 HOST-SUFFIX,sexnudo.com,PROXY
 HOST-SUFFIX,sexo123.net,PROXY
+HOST-SUFFIX,sexodama.com,PROXY
+HOST-SUFFIX,sexodeamor.com,PROXY
 HOST-SUFFIX,sexopornolive.com,PROXY
 HOST-SUFFIX,sexoquente.blog,PROXY
 HOST-SUFFIX,sexplustube.net,PROXY
@@ -11256,6 +11310,7 @@ HOST-SUFFIX,sora6.com,PROXY
 HOST-SUFFIX,sorairi.info,PROXY
 HOST-SUFFIX,sorcerersarena.com,PROXY
 HOST-SUFFIX,soso7778.com,PROXY
+HOST-SUFFIX,souka.xyz,PROXY
 HOST-SUFFIX,soundofhope.org,PROXY
 HOST-SUFFIX,sourceforge.com,PROXY
 HOST-SUFFIX,sourcingforebay.net,PROXY
@@ -11336,6 +11391,7 @@ HOST-SUFFIX,ssrpass.pw,PROXY
 HOST-SUFFIX,ssshuqian.xyz,PROXY
 HOST-SUFFIX,sssins.com,PROXY
 HOST-SUFFIX,sssjav.com,PROXY
+HOST-SUFFIX,sssuo1.xyz,PROXY
 HOST-SUFFIX,ssx3.com,PROXY
 HOST-SUFFIX,st.dl.bscstorage.net,PROXY
 HOST-SUFFIX,st.dl.eccdnx.com,PROXY
@@ -11377,6 +11433,7 @@ HOST-SUFFIX,starfieldtech.com,PROXY
 HOST-SUFFIX,starfox.com,PROXY
 HOST-SUFFIX,starott.com,PROXY
 HOST-SUFFIX,starplus.com,PROXY
+HOST-SUFFIX,starsze.icu,PROXY
 HOST-SUFFIX,startpath.com,PROXY
 HOST-SUFFIX,startupjournal.com,PROXY
 HOST-SUFFIX,startupschool.org,PROXY
@@ -11417,7 +11474,7 @@ HOST-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net,PROXY
 HOST-SUFFIX,stonefoxlingerie.com,PROXY
 HOST-SUFFIX,stonefoxproductions.com,PROXY
 HOST-SUFFIX,store-bridgestonesports.com,PROXY
-HOST-SUFFIX,store.apple.com.edgekey.net.PROXYredir.akadns.net,PROXY
+HOST-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net,PROXY
 HOST-SUFFIX,store.storeimages.apple.com.akadns.net,PROXY
 HOST-SUFFIX,storesense.com,PROXY
 HOST-SUFFIX,storiesonline.net,PROXY
@@ -11563,6 +11620,7 @@ HOST-SUFFIX,syosetu.com,PROXY
 HOST-SUFFIX,sysinternals.com,PROXY
 HOST-SUFFIX,syzbj36.xyz,PROXY
 HOST-SUFFIX,szcheapmonsterheadphones.com,PROXY
+HOST-SUFFIX,szexvideo.top,PROXY
 HOST-SUFFIX,szwinnertechnology.com,PROXY
 HOST-SUFFIX,tabooporns.com,PROXY
 HOST-SUFFIX,tabustudios.co,PROXY
@@ -11571,6 +11629,7 @@ HOST-SUFFIX,taiav.com,PROXY
 HOST-SUFFIX,tail-f.com,PROXY
 HOST-SUFFIX,tailf.com,PROXY
 HOST-SUFFIX,tailwindtraders.com,PROXY
+HOST-SUFFIX,taiwanadultexpo.com,PROXY
 HOST-SUFFIX,take2games.com,PROXY
 HOST-SUFFIX,takegoto.com,PROXY
 HOST-SUFFIX,taknai.com,PROXY
@@ -11602,6 +11661,7 @@ HOST-SUFFIX,teacherfucksteens.com,PROXY
 HOST-SUFFIX,teachmyass.com,PROXY
 HOST-SUFFIX,teamneedforspeed.com,PROXY
 HOST-SUFFIX,teamskeet.com,PROXY
+HOST-SUFFIX,teamviewer.cn,PROXY
 HOST-SUFFIX,tearapeak.com,PROXY
 HOST-SUFFIX,teatroporno.com,PROXY
 HOST-SUFFIX,techatbloomberg.com,PROXY
@@ -12112,6 +12172,7 @@ HOST-SUFFIX,unbrandedproducts.com,PROXY
 HOST-SUFFIX,uncams.com,PROXY
 HOST-SUFFIX,uncensoredsexparties.com,PROXY
 HOST-SUFFIX,underhentai.net,PROXY
+HOST-SUFFIX,ungrounded.net,PROXY
 HOST-SUFFIX,uninhibitedcomix.com,PROXY
 HOST-SUFFIX,uniswap.org,PROXY
 HOST-SUFFIX,unity.com,PROXY
@@ -12374,7 +12435,7 @@ HOST-SUFFIX,visadns.com,PROXY
 HOST-SUFFIX,visaeverywhereshop.com,PROXY
 HOST-SUFFIX,visafintechfasttrack.com,PROXY
 HOST-SUFFIX,visafulfillment.com,PROXY
-HOST-SUFFIX,visaPROXYfinance.com,PROXY
+HOST-SUFFIX,visaglobalfinance.com,PROXY
 HOST-SUFFIX,visaicsdirect.com,PROXY
 HOST-SUFFIX,visainfinite.cn,PROXY
 HOST-SUFFIX,visaitalia.com,PROXY
@@ -12416,7 +12477,7 @@ HOST-SUFFIX,vkuserlive.net,PROXY
 HOST-SUFFIX,vkuservideo.com,PROXY
 HOST-SUFFIX,vkuservideo.net,PROXY
 HOST-SUFFIX,vl4x.net,PROXY
-HOST-SUFFIX,vmPROXY.net,PROXY
+HOST-SUFFIX,vmglobal.net,PROXY
 HOST-SUFFIX,vmmark.com,PROXY
 HOST-SUFFIX,vmtestdrive.com,PROXY
 HOST-SUFFIX,vmw.com,PROXY
@@ -12536,6 +12597,7 @@ HOST-SUFFIX,w.wiki,PROXY
 HOST-SUFFIX,w0512.com,PROXY
 HOST-SUFFIX,w6un.com,PROXY
 HOST-SUFFIX,wa.me,PROXY
+HOST-SUFFIX,waittingfor001.weebly.com,PROXY
 HOST-SUFFIX,wal-mart.com,PROXY
 HOST-SUFFIX,wal.co,PROXY
 HOST-SUFFIX,wallet.com,PROXY
@@ -12800,7 +12862,7 @@ HOST-SUFFIX,www-bestbuystores.com,PROXY
 HOST-SUFFIX,www-facebook.com,PROXY
 HOST-SUFFIX,www-paypal.info,PROXY
 HOST-SUFFIX,www-sms-apple.com,PROXY
-HOST-SUFFIX,www.apple.com.edgekey.net.PROXYredir.akadns.net,PROXY
+HOST-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net,PROXY
 HOST-SUFFIX,www.destinationurl.com,PROXY
 HOST-SUFFIX,www.pxcc.com,PROXY
 HOST-SUFFIX,www8-hp.com,PROXY
@@ -13041,6 +13103,7 @@ HOST-SUFFIX,xsz-av.com,PROXY
 HOST-SUFFIX,xtracloud.cn,PROXY
 HOST-SUFFIX,xtubebdsm.com,PROXY
 HOST-SUFFIX,xtubezoo.com,PROXY
+HOST-SUFFIX,xu97.vip,PROXY
 HOST-SUFFIX,xujan.com,PROXY
 HOST-SUFFIX,xv1.monster,PROXY
 HOST-SUFFIX,xvedo.net,PROXY
@@ -13223,6 +13286,7 @@ HOST-SUFFIX,yasarang.net,PROXY
 HOST-SUFFIX,yatong.info,PROXY
 HOST-SUFFIX,yavtube.com,PROXY
 HOST-SUFFIX,yazhouse8.com,PROXY
+HOST-SUFFIX,yeonda.com,PROXY
 HOST-SUFFIX,yepporn.com,PROXY
 HOST-SUFFIX,yespornfree.com,PROXY
 HOST-SUFFIX,yespornpleasexxx.com,PROXY
@@ -13237,8 +13301,6 @@ HOST-SUFFIX,yibei.org,PROXY
 HOST-SUFFIX,yieamnd.com,PROXY
 HOST-SUFFIX,yinac.xyz,PROXY
 HOST-SUFFIX,yinac5.top,PROXY
-HOST-SUFFIX,yingav.com,PROXY
-HOST-SUFFIX,yingav.net,PROXY
 HOST-SUFFIX,yingpianqu.com,PROXY
 HOST-SUFFIX,yinmh.com,PROXY
 HOST-SUFFIX,yiqiedoushiganggangkaishi.org,PROXY
@@ -13317,6 +13379,7 @@ HOST-SUFFIX,ysact.com,PROXY
 HOST-SUFFIX,ysage.com,PROXY
 HOST-SUFFIX,ysaim.com,PROXY
 HOST-SUFFIX,ysand.com,PROXY
+HOST-SUFFIX,ysav184.xyz,PROXY
 HOST-SUFFIX,ysbad.com,PROXY
 HOST-SUFFIX,ysbed.com,PROXY
 HOST-SUFFIX,yshide.com,PROXY
@@ -13367,6 +13430,7 @@ HOST-SUFFIX,yusjb.com,PROXY
 HOST-SUFFIX,ywbclx.top,PROXY
 HOST-SUFFIX,ywoos.com,PROXY
 HOST-SUFFIX,yximg.cn,PROXY
+HOST-SUFFIX,yzld188.top,PROXY
 HOST-SUFFIX,z.cn,PROXY
 HOST-SUFFIX,z00.world,PROXY
 HOST-SUFFIX,z18r.co,PROXY
@@ -13410,6 +13474,7 @@ HOST-SUFFIX,zhaimankan.com,PROXY
 HOST-SUFFIX,zhainanjidi.xyz,PROXY
 HOST-SUFFIX,zhainanjidid.top,PROXY
 HOST-SUFFIX,zhimeishe888.com,PROXY
+HOST-SUFFIX,zibacity.com,PROXY
 HOST-SUFFIX,zind.cloud,PROXY
 HOST-SUFFIX,zingtruyen.net,PROXY
 HOST-SUFFIX,zishy.com,PROXY
@@ -15546,15 +15611,15 @@ HOST-SUFFIX,gitlab.io,PROXY
 HOST-SUFFIX,gizlen.net,PROXY
 HOST-SUFFIX,gjczz.com,PROXY
 HOST-SUFFIX,glass8.eu,PROXY
-HOST-SUFFIX,PROXYjihad.net,PROXY
-HOST-SUFFIX,PROXYmediaoutreach.com,PROXY
-HOST-SUFFIX,PROXYmuseumoncommunism.org,PROXY
-HOST-SUFFIX,PROXYrescue.net,PROXY
-HOST-SUFFIX,PROXYsign.com,PROXY
-HOST-SUFFIX,PROXYtm.org,PROXY
-HOST-SUFFIX,PROXYvoices.org,PROXY
-HOST-SUFFIX,PROXYvoicesonline.org,PROXY
-HOST-SUFFIX,PROXYvpn.net,PROXY
+HOST-SUFFIX,globaljihad.net,PROXY
+HOST-SUFFIX,globalmediaoutreach.com,PROXY
+HOST-SUFFIX,globalmuseumoncommunism.org,PROXY
+HOST-SUFFIX,globalrescue.net,PROXY
+HOST-SUFFIX,globalsign.com,PROXY
+HOST-SUFFIX,globaltm.org,PROXY
+HOST-SUFFIX,globalvoices.org,PROXY
+HOST-SUFFIX,globalvoicesonline.org,PROXY
+HOST-SUFFIX,globalvpn.net,PROXY
 HOST-SUFFIX,glock.com,PROXY
 HOST-SUFFIX,gloryhole.com,PROXY
 HOST-SUFFIX,glorystar.me,PROXY
@@ -16432,7 +16497,6 @@ HOST-SUFFIX,jav2be.com,PROXY
 HOST-SUFFIX,jav68.tv,PROXY
 HOST-SUFFIX,javakiba.org,PROXY
 HOST-SUFFIX,javbus.com,PROXY
-HOST-SUFFIX,javdb.com,PROXY
 HOST-SUFFIX,javfor.me,PROXY
 HOST-SUFFIX,javhip.com,PROXY
 HOST-SUFFIX,javhub.net,PROXY
@@ -16515,7 +16579,7 @@ HOST-SUFFIX,junauza.com,PROXY
 HOST-SUFFIX,june4commemoration.org,PROXY
 HOST-SUFFIX,junefourth-20.net,PROXY
 HOST-SUFFIX,jungleheart.com,PROXY
-HOST-SUFFIX,junPROXY.net,PROXY
+HOST-SUFFIX,junglobal.net,PROXY
 HOST-SUFFIX,juoaa.com,PROXY
 HOST-SUFFIX,justdied.com,PROXY
 HOST-SUFFIX,justfreevpn.com,PROXY
@@ -17476,6 +17540,7 @@ HOST-SUFFIX,openwrt.org.cn,PROXY
 HOST-SUFFIX,opera-mini.net,PROXY
 HOST-SUFFIX,opera.com,PROXY
 HOST-SUFFIX,opus-gaming.com,PROXY
+HOST-SUFFIX,oraclecloud.com,PROXY
 HOST-SUFFIX,orchidbbs.com,PROXY
 HOST-SUFFIX,organcare.org.tw,PROXY
 HOST-SUFFIX,organharvestinvestigation.net,PROXY
@@ -18352,8 +18417,8 @@ HOST-SUFFIX,squirrelvpn.com,PROXY
 HOST-SUFFIX,srocket.us,PROXY
 HOST-SUFFIX,ss-link.com,PROXY
 HOST-SUFFIX,ssa.gov,PROXY
-HOST-SUFFIX,ssPROXY.co,PROXY
-HOST-SUFFIX,ssPROXY.me,PROXY
+HOST-SUFFIX,ssglobal.co,PROXY
+HOST-SUFFIX,ssglobal.me,PROXY
 HOST-SUFFIX,ssh91.com,PROXY
 HOST-SUFFIX,ssl443.org,PROXY
 HOST-SUFFIX,sspanel.net,PROXY
@@ -18388,7 +18453,7 @@ HOST-SUFFIX,steganos.com,PROXY
 HOST-SUFFIX,steganos.net,PROXY
 HOST-SUFFIX,stepchina.com,PROXY
 HOST-SUFFIX,stephaniered.com,PROXY
-HOST-SUFFIX,stPROXYlink.com,PROXY
+HOST-SUFFIX,stgloballink.com,PROXY
 HOST-SUFFIX,stheadline.com,PROXY
 HOST-SUFFIX,sthoo.com,PROXY
 HOST-SUFFIX,stickam.com,PROXY
@@ -19820,7 +19885,6 @@ HOST-KEYWORD,ttvnw,PROXY
 HOST-KEYWORD,twitter,PROXY
 HOST-KEYWORD,uk-live,PROXY
 HOST-KEYWORD,whatsapp,PROXY
-HOST-KEYWORD,yingav,PROXY
 HOST-KEYWORD,youtube,PROXY
 USER-AGENT,AbemaTV*,PROXY
 USER-AGENT,All4*,PROXY
