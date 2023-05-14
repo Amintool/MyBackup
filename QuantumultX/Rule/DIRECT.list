@@ -1,3 +1,8 @@
+HOST, itunes.apple.com, DIRECT
+HOST-SUFFIX, itunes.apple.com, DIRECT
+HOST-SUFFIX, apps.apple.com, DIRECT
+HOST-SUFFIX, mzstatic.com, DIRECT
+HOST-SUFFIX, apple.com, DIRECT
 IP-CIDR, 10.0.0.0/8, DIRECT
 IP-CIDR, 127.0.0.0/8, DIRECT
 IP-CIDR, 172.16.0.0/12, DIRECT
