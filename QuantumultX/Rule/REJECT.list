@@ -1,6 +1,9 @@
 # 2023-04-26 10:45
 
 # ======= A ======= #
+# Apple
+HOST, api-adservices.apple.com, REJECT
+HOST-SUFFIX, iadsdk.apple.com, REJECT
 # 安全浏览限制解除
 HOST, lookup.api.bsb.baidu.com, REJECT
 HOST, proxy.safebrowsing.apple, REJECT
@@ -9,9 +12,18 @@ HOST, safebrowsing.googleapis.com, REJECT
 HOST, safebrowsing.urlsec.qq.com, REJECT
 HOST, token.safebrowsing.apple, REJECT
 HOST, vs6.bj2ct.u3.ucweb.com, REJECT
+HOST-SUFFIX, safebrowsing.apple, REJECT
 HOST-SUFFIX, u3.ucweb.com, REJECT
 
 # ======= B ======= #
+# 百度
+HOST-SUFFIX, pos.baidu.com, REJECT
+# 百度地图
+HOST, afd.baidu.com, REJECT
+HOST, afdconf.baidu.com, REJECT
+HOST, httpdns.baidubce.com, REJECT
+HOST, lc.map.baidu.com, REJECT
+IP-CIDR, 180.76.76.200/32, REJECT
 # 哔哩哔哩
 HOST, mall.bilibili.com, REJECT
 HOST, passport.bilibili.com, REJECT
@@ -48,10 +60,13 @@ IP-CIDR, 117.92.229.188/32, REJECT
 IP-CIDR, 101.36.166.16/32, REJECT
 IP-CIDR, 180.96.2.114/32, REJECT
 # Foreca & Google
+HOST, adservice.google.com, REJECT
 HOST, googleads.g.doubleclick-cn.net, REJECT
 HOST, googleads.g.doubleclick.net, REJECT
 HOST, pubads.g.doubleclick.net, REJECT
 HOST, pagead2.googlesyndication.com, REJECT
+HOST, www.googleadservices.com, REJECT
+HOST-KEYWORD, adservice.google.com., REJECT
 
 # ======= H ======= #
 # HTTPDNS 服务器
@@ -71,6 +86,20 @@ HOST, mi.gdt.qq.com, REJECT
 HOST, open.e.kuaishou.com, REJECT
 HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
 HOST-SUFFIX, pangolin-sdk-toutiao-b.com, REJECT
+
+# ======= L ======= #
+# 蓝奏云
+HOST, statics.woozooo.com, REJECT
+
+# ======= R ======= #
+# RARBG 推广跳转
+HOST, bravetense.com, REJECT
+HOST, furiousfar.com, REJECT
+HOST, swallowcrockerybless.com, REJECT
+
+# ======= S ======= #
+# 数字联盟
+HOST-SUFFIX, shuzilm.cn, REJECT
 
 # ======= T ======= #
 # 腾讯 无法使用的推送服务
@@ -101,6 +130,9 @@ HOST, switch.cup.com.cn, REJECT
 HOST, tysdk.95516.com, REJECT
 
 # ======= Z ======= #
+# 字节跳动
+HOST, ad.zijieapi.com, REJECT
+HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
 # 知乎
 HOST, appcloud.zhihu.com, REJECT
 HOST, appcloud2.in.zhihu.com, REJECT
