@@ -30,7 +30,6 @@ HOST, passport.bilibili.com, REJECT
 
 # ======= F ======= #
 # 番茄小说
-HOST, dig.zjurl.cn, REJECT
 HOST, i.snssdk.com, REJECT
 HOST, i-lq.snssdk.com, REJECT
 HOST, dig.bdurl.net, REJECT
@@ -44,12 +43,10 @@ HOST, msync-im1-vip6-std.easemob.com, REJECT
 HOST, apd-pcdnwxlogin.teg.tencent-cloud.net, REJECT
 HOST, api.iegadp.qq.com, REJECT
 HOST, sf3-ttcdn-tos.pstatp.com, REJECT
+HOST-SUFFIX, pglstatp-toutiao.com, REJECT
 HOST, *default.ixigua.com, REJECT
 HOST, v6-novelapp.ixigua.com, REJECT
 HOST, *novelapp.ixigua.com, REJECT
-HOST-SUFFIX, -ad-sign.byteimg.com, REJECT
-HOST-SUFFIX, pglstatp-toutiao.com, REJECT
-HOST-SUFFIX, zijieapi.com, REJECT
 HOST-SUFFIX, byteorge.com, REJECT
 HOST-SUFFIX, bytegoofy.com, REJECT
 HOST-SUFFIX, bytedance.com, REJECT
@@ -59,6 +56,8 @@ IP-CIDR, 218.94.207.205/32, REJECT
 IP-CIDR, 117.92.229.188/32, REJECT
 IP-CIDR, 101.36.166.16/32, REJECT
 IP-CIDR, 180.96.2.114/32, REJECT
+# 番茄小说福利页
+HOST, lf-sourcecdn-tos.bytegecko.com, DIRECT
 # Foreca & Google
 HOST, adservice.google.com, REJECT
 HOST, googleads.g.doubleclick-cn.net, REJECT
@@ -131,7 +130,7 @@ HOST, tysdk.95516.com, REJECT
 
 # ======= Z ======= #
 # 字节跳动
-HOST, ad.zijieapi.com, REJECT
+HOST-SUFFIX, zijieapi.com, REJECT
 HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
 # 知乎
 HOST, appcloud.zhihu.com, REJECT
