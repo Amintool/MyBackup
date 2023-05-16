@@ -2,11 +2,11 @@
 # UPDATED: 2023-05-13 02:12:30
 # HOST: 536
 # HOST-KEYWORD: 39
-# HOST-SUFFIX: 19300
+# HOST-SUFFIX: 19301
 # IP-CIDR: 106
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 20031
+# TOTAL: 20032
 
 HOST,3dns-1.adobe.com,PROXY
 HOST,3dns-2.adobe.com,PROXY
@@ -544,6 +544,7 @@ HOST,p16-tiktokcdn-com.akamaized.net,PROXY
 HOST,services.googleapis.cn,PROXY
 HOST,testflight.apple.com,PROXY
 HOST,voice.telephony.goog,PROXY
+HOST-SUFFIX,saucenao.com,PROXY
 HOST-SUFFIX,01.org,PROXY
 HOST-SUFFIX,02weqj32.com,PROXY
 HOST-SUFFIX,04647.club,PROXY
