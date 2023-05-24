@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX, itunes.apple.com
-DOMAIN-SUFFIX, apps.apple.com
-DOMAIN-SUFFIX, mzstatic.com
-DOMAIN-SUFFIX, apple.com
+DOMAIN-SUFFIX, itunes.apple.com, DIRECT
+DOMAIN-SUFFIX, apps.apple.com, DIRECT
+DOMAIN-SUFFIX, mzstatic.com, DIRECT
+DOMAIN-SUFFIX, apple.com, DIRECT
