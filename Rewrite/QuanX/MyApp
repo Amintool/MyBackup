@@ -1,0 +1,89 @@
+# ======= A ======= #
+# 阿里巴巴 //acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources url reject
+^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-702-758\.png url reject-dict
+^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 url reject-dict
+
+# ======= B ====== #
+# 百度云 //pan.baidu.com
+^https:\/\/pan\.baidu\.com\/act\/api\/activityentry\? url reject-dict
+^https:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx\? url reject-dict
+^https:\/\/update\.pan\.baidu\.com\/statistics\? url reject-dict
+
+# ======= C ======= #
+# 车来了 //api.chelaile.net.cn, web.chelaile.net.cn
+^https:\/\/api\.chelaile\.net\.cn\/adpub url reject
+^https:\/\/api\.chelaile\.net\.cn\/goocity\/advert url reject
+^https:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
+
+# ======= D ======= #
+# 豆瓣 //api.douban.com
+^https:\/\/api\.douban\.com\/v2\/app_ads\/splash url reject
+^https:\/\/api\.douban\.com\b.*\/common_ads\? url reject
+
+# ======= E ======= #
+# 饿了么 //elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com
+^https:\/\/elemecdn.com\/.+\/sitemap url reject
+^https:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} url reject
+^https:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} url reject
+^https:\/\/fuss10.elemecdn.com\/.+\.mp4 url reject
+^https:\/\/www1.elecfans.com\/www\/delivery url reject
+
+# ======= J ====== #
+# 京东 //api.m.jd.com
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=queryMaterialAdverts url reject
+# 交管12123 //gab.122.gov.cn
+^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ url reject
+
+# ======= K ======= #
+# 肯德基 //res.kfc.com.cn
+^https:\/\/res\.kfc\.com\.cn\/advertisement url reject
+# 酷安 //api.coolapk.com
+^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
+^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
+
+# ======= M ====== #
+# 美团 //flowplus.meituan.net, s3plus.meituan.net
+^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg$ url reject-dict
+^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$ url reject-dict
+
+# ======= P ====== #
+# 拼多多 //api.pinduoduo.com, api.yangkeduo.com
+^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash url reject
+
+# ======= T ====== #
+# 贴吧 //tiebac.baidu.com
+^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(excellent\/personalized|frs\/(generalTabList|page|threadlist)|pb\/(pic)?page)$ url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaJson.js
+^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(excellent\/personalized|frs\/(generalTabList|page|threadlist)|pb\/(pic)?page)\?cmd url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaProto.js
+^http:\/\/c\.tieba\.baidu\.com\/c\/s\/sync$ url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaJson.js
+^https:\/\/tiebac\.baidu\.com\/tiebaads\/commonbatch\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaJson.js
+
+# ======= W ====== #
+# 微信 //mp.weixin.qq.com, weixin110.qq.com, security.wechat.com
+^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\? url response-body "advertisement_num":\d*, "advertisement_info":\[.*\], response-body "advertisement_num":0, "advertisement_info":[],
+^https:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\? url reject-dict
+^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
+
+# ======= X ====== #
+# 闲鱼 //gw.alicdn.com, acs.m.taobao.com
+^https:\/\/gw\.alicdn\.com\/mt\/ url reject
+^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} url reject
+^https:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4} url reject
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome url reject
+
+# ======= Y ====== #
+# 云闪付 //wallet.95516.com
+^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 url reject
+
+hostname = acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, pan.baidu.com, api.chelaile.net.cn, web.chelaile.net.cn, api.douban.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, gab.122.gov.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, mp.weixin.qq.com, gw.alicdn.com, acs.m.taobao.com, wallet.95516.com, api.m.jd.com, api.coolapk.com, tiebac.baidu.com, weixin110.qq.com, security.wechat.com
+ 
