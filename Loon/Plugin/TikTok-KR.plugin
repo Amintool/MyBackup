@@ -1,5 +1,5 @@
-#!name = 抖音换地区
-#!desc = ㅤ
+#!name = TikTok
+#!desc = ㅤ解锁韩国区
 
 [Rule]
 DOMAIN-SUFFIX, byteoversea.com, PROXY
