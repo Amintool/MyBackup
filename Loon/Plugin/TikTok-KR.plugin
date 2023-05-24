@@ -1,5 +1,5 @@
 #!name = TikTok
-#!desc = ㅤ解锁韩国区
+#!desc = 解锁韩国区
 
 [Rule]
 DOMAIN-SUFFIX, byteoversea.com, PROXY
