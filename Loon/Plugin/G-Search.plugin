@@ -2,7 +2,9 @@
 #!desc = 超级搜索
 
 [Rewrite]
-^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) 302 https://m.baidu.com/s?word=$1
+^https:\/\/www\.google\.com\/search\?q=d\+([^&]+) 302 https://m.baidu.com/s?word=$1
+
+^https:\/\/www\.google\.com\/search\?q=b\+([^&]+) 302 https://bing.com/s?word=$1
 
 [MITM]
 hostname = www.google.com
