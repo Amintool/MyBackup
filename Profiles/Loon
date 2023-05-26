@@ -40,24 +40,24 @@ PROXY = select,星国,日本,美国,台湾,img-url = https://raw.githubuserconte
 台湾节点 = NameRegex, FilterKey = "台湾|TW"
 
 [Remote Rule]
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rule/Loon/REJECT, policy=REJECT, tag=屏蔽广告, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rule/Loon/DIRECT, policy=DIRECT, tag=国内直连, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rule/Loon/PROXY, policy=PROXY, tag=国际代理, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rule/Loon/LAN, policy=DIRECT, tag=地理位置, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rule/Loon/GEOIP, policy=DIRECT, tag=局域网络, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rule/Loon/REJECT, policy=REJECT, tag=屏蔽广告, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rule/Loon/DIRECT, policy=DIRECT, tag=国内直连, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rule/Loon/PROXY, policy=PROXY, tag=国际代理, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rule/Loon/LAN, policy=DIRECT, tag=地理位置, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rule/Loon/GEOIP, policy=DIRECT, tag=局域网络, enabled=true
 
 [Plugin]
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/TikTok-KR, policy=PROXY, tag=TikTok, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Google, tag=Google, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Music, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Youtube, tag=Youtube, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Qidian, tag=Qidian, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Gaode, tag=Gaode, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Myapp, tag=Myapp, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Weibo, tag=Weibo, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Redbook, tag=Redbook, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Dualsub, tag=Dualsub, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
-https://raw.githubusercontent.com/Makimalook/MyBackup/main/Rewrite/Loon/Loon, tag=Loon, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=false
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/TikTok-KR, policy=PROXY, tag=TikTok, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Google, tag=Google, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Music, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Youtube, tag=Youtube, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Qidian, tag=Qidian, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Gaode, tag=Gaode, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Myapp, tag=Myapp, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Weibo, tag=Weibo, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Redbook, tag=Redbook, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Dualsub, tag=Dualsub, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=true
+https://raw.githubusercontent.com/AmimTool/MyBackup/main/Rewrite/Loon/Loon, tag=Loon, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/AAEX.png, enabled=false
 
 [Rule]
 FINAL,PROXY
