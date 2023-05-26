@@ -1,0 +1,71 @@
+[general]
+# > 节点延迟测试
+server_check_url=http://www.google.com/generate_204
+# > 测试超时时间
+server_check_timeout=2000
+# > 资源解析神器
+resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+# > 关联配置头像
+profile_img_url=https://i.ibb.co/nQr3x7Q/IMG-0493.jpg
+# > 节点信息展示
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
+# > 禁止UDP端口
+udp_drop_list=443
+
+[dns]
+# > 禁用系统DNS/禁用IPv6
+no-system
+no-ipv6
+
+# > 自定义DNS服务器
+server=119.29.29.29
+server=223.5.5.5
+server=114.114.114.114
+
+[policy]
+static=PROXYㅤ, 星国, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Quantumult_X.png
+url-latency-benchmark=日本, server-tag-regex=(?=.*(日本|JP))^((?!(游戏|倍)).)*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Orz-3/face/master/JP.png
+url-latency-benchmark=香港, server-tag-regex=(?=.*(香港|HK))^((?!(倍)).)*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Orz-3/face/master/HK.png
+url-latency-benchmark=星国, server-tag-regex=新加坡|SG, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Orz-3/face/master/SG.png
+url-latency-benchmark=美国, server-tag-regex=美国|US, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Orz-3/face/master/US.png
+url-latency-benchmark=韩国, server-tag-regex=韩国|KR, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Orz-3/face/master/KR.png
+url-latency-benchmark=台湾, server-tag-regex=台湾|TW, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Orz-3/face/master/TW.png
+
+[server_remote]
+
+[filter_remote]
+REJECT, tag=屏蔽广告, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
+DIRECT, tag=国内直连, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+PROXY, tag=国际代理, force-policy=PROXYㅤ, update-interval=172800, opt-parser=false, enabled=true
+LAN, tag=地理位置, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+GEOIP, tag=局域网络, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+
+[rewrite_remote]
+TikTok, tag=解锁韩国区, update-interval=172800, opt-parser=false, enabled=true
+Google, tag=谷歌重定向, update-interval=172800, opt-parser=false, enabled=true
+Music, tag=音乐去广告, update-interval=172800, opt-parser=false, enabled=true
+Youtube, tag=油管去广告, update-interval=172800, opt-parser=false, enabled=true
+Qidian, tag=起点去广告, update-interval=172800, opt-parser=false, enabled=true
+Gaode, tag=高德去广告, update-interval=172800, opt-parser=false, enabled=true
+MyApp, tag=应用去广告, update-interval=172800, opt-parser=false, enabled=true
+Weibo, tag=微博去广告, update-interval=172800, opt-parser=false, enabled=true
+Redbook, tag=红书去广告, update-interval=172800, opt-parser=false, enabled=true
+Dualsub, tag=油管翻译器, update-interval=172800, opt-parser=false, enabled=true
+TestFlight, tag=小风车下载, update-interval=172800, opt-parser=false, enabled=true
+
+[server_local]
+
+[filter_local]
+final, PROXYㅤ
+
+[rewrite_local]
+
+[task_local]
+
+[http_backend]
+
+[mitm]
+passphrase = 
+p12 = 
+skip_validating_cert = true
+
