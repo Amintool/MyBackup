@@ -16,11 +16,11 @@ ipv6 = false
 
 [Proxy Group]
 PROXY = select, 星国, 日本, 美国, 香港, no-alert=0, hidden=0, include-all-proxies=0
-星国 = url-test, policy-path=https://dingyue.wenlianyun.vip/api/v1/client/subscribe?token=9cb93c7e5e7ed2b805956f03acd65d3d&security=d97b01eae257e44aa, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=新加坡|SG
-日本 = url-test, policy-path=https://dingyue.wenlianyun.vip/api/v1/client/subscribe?token=9cb93c7e5e7ed2b805956f03acd65d3d&security=d97b01eae257e44aa, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=日本|JP
-美国 = url-test, policy-path=https://dingyue.wenlianyun.vip/api/v1/client/subscribe?token=9cb93c7e5e7ed2b805956f03acd65d3d&security=d97b01eae257e44aa, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=美国|US
-台湾 = url-test, policy-path=https://dingyue.wenlianyun.vip/api/v1/client/subscribe?token=9cb93c7e5e7ed2b805956f03acd65d3d&security=d97b01eae257e44aa, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=台湾|TW
-香港 = url-test, policy-path=https://dingyue.wenlianyun.vip/api/v1/client/subscribe?token=9cb93c7e5e7ed2b805956f03acd65d3d&security=d97b01eae257e44aa, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=香港|HK
+星国 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=新加坡|SG
+日本 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=日本|JP
+美国 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=美国|US
+台湾 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=台湾|TW
+香港 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=香港|HK
 
 [Rule]
 RULE-SET,REJECT,REJECT
