@@ -1,4 +1,6 @@
-# 谷歌搜索中国与香港重定向
+#!name = 重定向
+#!desc = 谷歌搜索重定向
+#!author = AminTool
 
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 ^https?:\/\/(www.)?(g|google)\.com.hk url 302 https://www.google.co.jp
