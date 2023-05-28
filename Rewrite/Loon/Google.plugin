@@ -1,5 +1,5 @@
 #!name = Google
-#!desc = ㅤ谷歌重定向
+#!desc = 谷歌重定向
 
 [Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com
