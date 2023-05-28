@@ -32,6 +32,7 @@ HOST, lf-sourcecdn-tos.bytegecko.com, DIRECT
 HOST, amap-aos-info-nogw.amap.com, REJECT
 HOST, awaken.amap.com, REJECT
 HOST, free-aos-cdn-image.amap.com, REJECT
+
 # 广告联盟
 HOST, is.snssdk.com, REJECT
 HOST, mi.gdt.qq.com, REJECT
@@ -52,6 +53,7 @@ HOST, iadmat.nosdn.127.net, REJECT
 HOST, iadmusicmat.music.126.net, REJECT
 HOST, iadmusicmatvideo.music.126.net, REJECT
 HOST-SUFFIX, 163jiasu.com, REJECT
+
 # 微博 开屏广告
 HOST, adstrategy.biz.weibo.com, REJECT
 HOST, kadmimage.biz.weibo.com, REJECT
@@ -70,17 +72,9 @@ HOST, tysdk.95516.com, REJECT
 # 字节跳动
 HOST-SUFFIX, zijieapi.com, REJECT
 HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
-# 知乎
-HOST, appcloud.zhihu.com, REJECT
-HOST, appcloud2.in.zhihu.com, REJECT
-HOST, crash2.zhihu.com, REJECT
-HOST, mqtt.zhihu.com, REJECT
-HOST, sugar.zhihu.com, REJECT
-IP-CIDR, 118.89.204.198/32, REJECT
-IP-CIDR, 103.41.167.237/32, REJECT
-IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 
 # 阿里云
 IP-CIDR, 203.107.1.1/32, REJECT
+
 # 百度贴吧
 IP-CIDR, 186.76.76.200/32, REJECT
