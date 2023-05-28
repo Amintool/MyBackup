@@ -43,6 +43,9 @@ http-response ^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? scrip
 http-response ^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js, requires-body=true, timeout=60 ,tag=酷安去广告
 http-response ^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js, requires-body=true, timeout=60 ,tag=酷安去广告
 
+# 起点 //magev6.if.qidian.com
+http-response ^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v4\/client\/getsplashscreen|v2\/deeplink\/geturl|v1\/(client\/getconf|bookshelf\/getHoverAdv|adv\/getadvlistbatch\?positions=iOS_tab|dailyrecommend\/getdailyrecommend)) script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/qidian.js, requires-body=true, timeout=10, tag=起点去广告
+
 # 贴吧 //tiebac.baidu.com
 http-response ^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(excellent\/personalized|frs\/(generalTabList|page|threadlist)|pb\/(pic)?page)$ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaJson.js, requires-body=true, timeout=60 ,tag=贴吧去广告
 http-response ^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(excellent\/personalized|frs\/(generalTabList|page|threadlist)|pb\/(pic)?page)\?cmd script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaProto.js, requires-body=true, binary-body-mode=true, timeout=60 ,tag=贴吧去广告
@@ -50,5 +53,5 @@ http-response ^http:\/\/c\.tieba\.baidu\.com\/c\/s\/sync$ script-path=https://ra
 http-response ^https:\/\/tiebac\.baidu\.com\/tiebaads\/commonbatch\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaJson.js, requires-body=true, timeout=60 ,tag=贴吧去广告
 
 [MITM]
-hostname = acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, api.douban.com, gab.122.gov.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, tiebac.baidu.com, gw.alicdn.com, acs.m.taobao.com, wallet.95516.com
+hostname = acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, api.douban.com, gab.122.gov.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, magev6.if.qidian.com, tiebac.baidu.com, gw.alicdn.com, acs.m.taobao.com, wallet.95516.com
  
