@@ -1,8 +1,6 @@
 #!name = Music
 #!desc = 音乐去广告
 
-# 2023-05-20
-
 [Rewrite]
 # 开屏广告,首页顶部横幅广告
 ^https?:\/\/interface3?\.music\.163.com\/eapi\/ad\/.*  reject-dict
