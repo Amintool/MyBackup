@@ -46,6 +46,19 @@ DOMAIN-SUFFIX, shuzilm.cn, REJECT
 # 腾讯 无法使用的推送服务
 DOMAIN, tpns.qq.com, REJECT
 
+#QQ音乐
+DOMAIN, tmeadcomm.y.qq.com, REJECT
+DOMAIN, ad.tencentmusic.com, REJECT
+DOMAIN, adstats.tencentmusic.com, REJECT
+DOMAIN, tmead.y.qq.com, REJECT
+DOMAIN-SUFFIX, rqd.qq.com, REJECT
+DOMAIN-SUFFIX, wup.imtt.qq.com, REJECT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+DOMAIN-SUFFIX, android.rqd.qq.com, REJECT
+DOMAIN-SUFFIX, e.qq.com, REJECT
+DOMAIN-SUFFIX, beacon.qq.com, REJECT
+DOMAIN-SUFFIX, v.gdt.qq.com, REJECT
+
 # 网易云音乐
 DOMAIN, gdt.qq.com, REJECT
 DOMAIN, httpdns.n.netease.com, REJECT
