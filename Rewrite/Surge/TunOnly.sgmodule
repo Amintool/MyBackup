@@ -1,10 +1,9 @@
 #!name=TunOnly
-#!desc=启用TunOnly
-#!system=ios
+#!desc=兼容模式
 
 [General]
 compatibility-mode = 3
-force-http-engine-hosts = %APPEND% -<ip-address>, *
+force-http-engine-hosts = %APPEND% *
 
 [MITM]
 tcp-connection = true
