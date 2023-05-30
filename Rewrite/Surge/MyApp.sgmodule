@@ -64,5 +64,9 @@
 ^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
+# QQ音乐
+^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*?\d{4}\.jpg data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
 [MITM]
-hostname = %APPEND% acs.m.taobao.com,gw.alicdn.com,heic.alicdn.com,api.douban.com,gab.122.gov.cn,api.coolapk.com,flowplus.meituan.net,s3plus.meituan.net,api.pinduoduo.com,api.yangkeduo.com,magev6.if.qidian.com,tiebac.baidu.com,gw.alicdn.com,acs.m.taobao.com,wallet.95516.com
+hostname = %APPEND% acs.m.taobao.com,gw.alicdn.com,heic.alicdn.com,api.douban.com,gab.122.gov.cn,api.coolapk.com,flowplus.meituan.net,s3plus.meituan.net,api.pinduoduo.com,api.yangkeduo.com,us.l.qq.com,y.gtimg.cn,magev6.if.qidian.com,tiebac.baidu.com,gw.alicdn.com,acs.m.taobao.com,wallet.95516.com
