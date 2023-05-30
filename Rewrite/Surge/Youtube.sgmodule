@@ -1,8 +1,8 @@
 #!name = Youtube
 #!desc = 油管去广告
 
-[Rule]
-AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT
+#[Rule]
+#AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT
 
 [URL Rewrite]
 # ======= 视频广告请求 ======= #
