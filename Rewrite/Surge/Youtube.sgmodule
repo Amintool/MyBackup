@@ -22,4 +22,4 @@ Youtube = type=http-response, pattern=^https?:\/\/youtubei\.googleapis\.com\/you
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
 
 [MITM]
-hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+hostname = %APPEND% -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com
