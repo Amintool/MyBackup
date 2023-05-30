@@ -28,7 +28,7 @@
 # 拼多多 //api.pinduoduo.com, api.yangkeduo.com
 ^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash reject
 
-# QQ音乐
+# QQ音乐 //us.l.qq.com, y.gtimg.cn
 ^https?:\/\/us\.l\.qq\.com\/exapp reject
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ reject
 ^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/ reject
