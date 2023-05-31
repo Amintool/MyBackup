@@ -34,22 +34,22 @@ url-latency-benchmark=台湾, server-tag-regex=台湾|TW, check-interval=600, to
 
 [filter_remote]
 https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-quanx.txt, tag=广告拦截, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/QuanX/REJECT.list, tag=广告拦截, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/QuanX/DIRECT.list, tag=国内直连, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/QuanX/PROXY.list, tag=国际代理, force-policy=PROXYㅤ, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/QuanX/LAN.list, tag=地理位置, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/QuanX/GEOIP.list, tag=局域网络, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rule/QuanX/REJECT.list, tag=广告拦截, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rule/QuanX/DIRECT.list, tag=国内直连, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rule/QuanX/PROXY.list, tag=国际代理, force-policy=PROXYㅤ, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rule/QuanX/LAN.list, tag=地理位置, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rule/QuanX/GEOIP.list, tag=局域网络, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
 
 [rewrite_remote]
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rewrite/QuanX/TikTok-US.conf, tag=解锁美国区, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rewrite/QuanX/Google.conf, tag=谷歌重定向, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rewrite/QuanX/Youtube.conf, tag=油管去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rewrite/QuanX/Music.conf, tag=网易云音乐, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rewrite/QuanX/Gaode.conf, tag=高德去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rewrite/QuanX/MyApp.conf, tag=应用去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rewrite/QuanX/Weibo.conf, tag=微博去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rewrite/QuanX/Redbook.conf, tag=红书去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/AminTool/MyBackup/main/Rewrite/QuanX/Dualsub.conf, tag=油管翻译器, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rewrite/QuanX/TikTok-US.conf, tag=解锁美国区, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rewrite/QuanX/Google.conf, tag=谷歌重定向, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rewrite/QuanX/Youtube.conf, tag=油管去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rewrite/QuanX/Music.conf, tag=网易云音乐, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rewrite/QuanX/Gaode.conf, tag=高德去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rewrite/QuanX/MyApp.conf, tag=应用去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rewrite/QuanX/Weibo.conf, tag=微博去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rewrite/QuanX/Redbook.conf, tag=红书去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Amintool/MyBackup/main/Rewrite/QuanX/Dualsub.conf, tag=油管翻译器, update-interval=172800, opt-parser=false, enabled=true
 
 [server_local]
 
