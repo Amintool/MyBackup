@@ -16,18 +16,20 @@ ipv6 = false
 
 [Proxy Group]
 PROXY = select, 星国, 日本, 美国, 香港, no-alert=0, hidden=0, include-all-proxies=0
-星国 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=新加坡|SG
-日本 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=日本|JP
-美国 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=美国|US
-台湾 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=台湾|TW
-香港 = url-test, policy-path=订阅链接, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=香港|HK
+星国 = url-test, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=新加坡|SG, include-other-group=机场
+日本 = url-test, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=日本|JP, include-other-group=机场
+美国 = url-test, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=美国|US, include-other-group=机场
+台湾 = url-test, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=台湾|TW, include-other-group=机场
+香港 = url-test, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0, policy-regex-filter=香港|HK, include-other-group=机场
+机场 = select, policy-path=机场订阅, update-interval=0, no-alert=0, hidden=1, include-all-proxies=0
 
 [Rule]
-RULE-SET,REJECT,REJECT
-RULE-SET,DIRECT,DIRECT
-RULE-SET,PROXY,PROXY
-RULE-SET,LAN,DIRECT
-RULE-SET,GEOIP,DIRECT
+RULE-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt,REJECT
+RULE-SET,https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/Loon/REJECT.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/Loon/DIRECT.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/Loon/PROXY.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/Loon/LAN.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/AminTool/MyBackup/main/Rule/Loon/GEOIP.list,DIRECT
 FINAL,PROXY
 
 [MITM]
