@@ -1,0 +1,93 @@
+# 番茄小说
+DOMAIN, i.snssdk.com, REJECT
+DOMAIN, i-lq.snssdk.com, REJECT
+DOMAIN, dig.bdurl.net, REJECT
+DOMAIN, activity-ag.awemeughun.com, REJECT
+DOMAIN, mcs.snssdk.com, REJECT
+DOMAIN, tnc3-alisc1.snssdk.com, REJECT
+DOMAIN, security-lq.snssdk.com, REJECT
+DOMAIN, tnc3-aliec2.snssdk.com, REJECT
+DOMAIN, is.snssdk.com, REJECT
+DOMAIN, msync-im1-vip6-std.easemob.com, REJECT
+DOMAIN, apd-pcdnwxlogin.teg.tencent-cloud.net, REJECT
+DOMAIN, api.iegadp.qq.com, REJECT
+DOMAIN, sf3-ttcdn-tos.pstatp.com, REJECT
+DOMAIN-SUFFIX, pglstatp-toutiao.com, REJECT
+DOMAIN, *default.ixigua.com, REJECT
+DOMAIN, v6-novelapp.ixigua.com, REJECT
+DOMAIN, *novelapp.ixigua.com, REJECT
+DOMAIN-SUFFIX, byteorge.com, REJECT
+DOMAIN-SUFFIX, bytegoofy.com, REJECT
+DOMAIN-SUFFIX, bytedance.com, REJECT
+IP-CIDR, 49.71.37.101/32, REJECT
+IP-CIDR, 117.71.105.23/32, REJECT
+IP-CIDR, 218.94.207.205/32, REJECT
+IP-CIDR, 117.92.229.188/32, REJECT
+IP-CIDR, 101.36.166.16/32, REJECT
+IP-CIDR, 180.96.2.114/32, REJECT
+# 番茄小说福利页
+DOMAIN, lf-sourcecdn-tos.bytegecko.com, DIRECT
+
+# 高德地图
+DOMAIN, amap-aos-info-nogw.amap.com, REJECT
+DOMAIN, awaken.amap.com, REJECT
+DOMAIN, free-aos-cdn-image.amap.com, REJECT
+
+# 广告联盟
+DOMAIN, is.snssdk.com, REJECT
+DOMAIN, mi.gdt.qq.com, REJECT
+DOMAIN, open.e.kuaishou.com, REJECT
+DOMAIN-SUFFIX, pangolin-sdk-toutiao.com, REJECT
+DOMAIN-SUFFIX, pangolin-sdk-toutiao-b.com, REJECT
+
+# 数字联盟
+DOMAIN-SUFFIX, shuzilm.cn, REJECT
+
+# 腾讯 无法使用的推送服务
+DOMAIN, tpns.qq.com, REJECT
+
+#QQ音乐
+DOMAIN, tmeadcomm.y.qq.com, REJECT
+DOMAIN, ad.tencentmusic.com, REJECT
+DOMAIN, adstats.tencentmusic.com, REJECT
+DOMAIN, tmead.y.qq.com, REJECT
+DOMAIN-SUFFIX, rqd.qq.com, REJECT
+DOMAIN-SUFFIX, wup.imtt.qq.com, REJECT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+DOMAIN-SUFFIX, android.rqd.qq.com, REJECT
+DOMAIN-SUFFIX, e.qq.com, REJECT
+DOMAIN-SUFFIX, beacon.qq.com, REJECT
+DOMAIN-SUFFIX, v.gdt.qq.com, REJECT
+
+# 网易云音乐
+DOMAIN, gdt.qq.com, REJECT
+DOMAIN, httpdns.n.netease.com, REJECT
+DOMAIN, iadmat.nosdn.127.net, REJECT
+DOMAIN, iadmusicmat.music.126.net, REJECT
+DOMAIN, iadmusicmatvideo.music.126.net, REJECT
+DOMAIN-SUFFIX, 163jiasu.com, REJECT
+
+# 微博 开屏广告
+DOMAIN, adstrategy.biz.weibo.com, REJECT
+DOMAIN, kadmimage.biz.weibo.com, REJECT
+DOMAIN, sdkaction.biz.weibo.com, REJECT
+DOMAIN, sdkclick.biz.weibo.com, REJECT
+DOMAIN, sdkmonitor.biz.weibo.com, REJECT
+
+# 云闪付 开屏广告
+DOMAIN, ads.95516.com, REJECT
+DOMAIN, cm-10-138.getui.com, REJECT
+DOMAIN, sdk.open.talk.getui.net, REJECT
+DOMAIN, sdk-conf.getui.com, REJECT
+DOMAIN, switch.cup.com.cn, REJECT
+DOMAIN, tysdk.95516.com, REJECT
+
+# 字节跳动
+DOMAIN-SUFFIX, zijieapi.com, REJECT
+DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
+
+# 阿里云
+IP-CIDR, 203.107.1.1/32, REJECT
+
+# 百度贴吧
+IP-CIDR, 186.76.76.200/32, REJECT
