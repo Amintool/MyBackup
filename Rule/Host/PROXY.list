@@ -1,14 +1,12 @@
 # NAME: PROXY
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-06-12 02:11:04
 # HOST: 547
 # HOST-KEYWORD: 39
-# HOST-SUFFIX: 19407
+# HOST-SUFFIX: 19405
 # IP-CIDR: 106
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 20149
+# TOTAL: 20147
 HOST,3dns-1.adobe.com,PROXY
 HOST,3dns-2.adobe.com,PROXY
 HOST,3dns-3.adobe.com,PROXY
@@ -6100,8 +6098,6 @@ HOST-SUFFIX,handbagsoutletebay.com,PROXY
 HOST-SUFFIX,handjobcumvideos.com,PROXY
 HOST-SUFFIX,handjobhub.com,PROXY
 HOST-SUFFIX,handjobtube4free.com,PROXY
-HOST-SUFFIX,hanime.me,PROXY
-HOST-SUFFIX,hanime1.me,PROXY
 HOST-SUFFIX,hanzhen.xmulib.org,PROXY
 HOST-SUFFIX,haori888.com,PROXY
 HOST-SUFFIX,haplorrhini.com,PROXY
