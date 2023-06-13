@@ -3,13 +3,13 @@
 ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? - reject-dict
 
 [Script]
-http-request ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js, timeout=60, tag=weibo_search_info_2, argument=type=text/json&url=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_info.json
-http-request ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js, timeout=60, tag=weibo_search_topic_3, argument=type=text/json&url=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_topic.json
-http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_4
-http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_5
-http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_6
-http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_7
-http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=weibo_json_8
+http-request ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js, timeout=60, tag=微博国际版, argument=type=text/json&url=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_info.json
+http-request ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js, timeout=60, tag=微博国际版, argument=type=text/json&url=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_topic.json
+http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=微博国际版
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=微博国际版
+http-response ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=微博国际版
+http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=微博国际版
+http-response ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, timeout=60 ,tag=微博国际版
 
 [MITM]
 hostname = api.weibo.*,*.api.weibo.*,mapi.weibo.*,*.uve.weibo.com,new.vip.weibo.cn,boot.biz.weibo.com
