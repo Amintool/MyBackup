@@ -1,3 +1,6 @@
+#!name = Weibo
+#!desc = 微博国际版
+
 [Rewrite]
 ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users - reject-dict
 ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? - reject-dict
