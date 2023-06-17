@@ -25,24 +25,24 @@
 
 [Script]
 # 微博
-http-response ^https:\/\/api\.weibo\.cn\/2\/(checkin\/show|client\/publisher_list|push\/active)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_1
-http-response ^https:\/\/api\.weibo\.cn\/2\/(cardlist|page)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_5
-http-response ^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_6
-http-response ^https:\/\/api\.weibo\.cn\/2\/(container\/asyn|flowlist)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_8
-http-response ^https:\/\/api\.weibo\.cn\/2\/profile\/(container_timeline|me)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_10
-http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_timeline(_topic|_unread|_hot)?|unread_hot_timeline)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_11
-http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(extend|show)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_12
-http-response ^https:\/\/api\.weibo\.cn\/2\/video\/tiny_stream_video_list\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_14
-http-response ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_16
-http-response ^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_19
-http-response ^https:\/\/api\.weibo\.cn\/2\/search\/(container_timeline|finder)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_22
-http-response ^https:\/\/api\.weibo\.cn\/2\/searchall\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_23
-http-response ^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload$ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_29
-http-response ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_31
-http-response ^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=weibo_32
-http-request ^https:\/\/weibo\.cn\/sinaurl\?(.*&)?(u|toasturl|goto)= script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js, timeout=60 ,tag=noRedirect_37
-http-request ^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url= script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js, timeout=60 ,tag=noRedirect_38
-http-response ^https:\/\/(sinaurl|t)\.cn\/ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js, timeout=60 ,tag=noRedirect_39
+http-response ^https:\/\/api\.weibo\.cn\/2\/(checkin\/show|client\/publisher_list|push\/active)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/(cardlist|page)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/(container\/asyn|flowlist)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/profile\/(container_timeline|me)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_timeline(_topic|_unread|_hot)?|unread_hot_timeline)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(extend|show)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/video\/tiny_stream_video_list\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/search\/(container_timeline|finder)\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/searchall\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload$ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js, requires-body=true, timeout=60 ,tag=微博去广告
+http-request ^https:\/\/weibo\.cn\/sinaurl\?(.*&)?(u|toasturl|goto)= script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js, timeout=60 ,tag=微博去广告
+http-request ^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url= script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js, timeout=60 ,tag=微博去广告
+http-response ^https:\/\/(sinaurl|t)\.cn\/ script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js, timeout=60 ,tag=微博去广告
 
 # 微博国际版
 http-request ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js, timeout=60, tag=微博国际版, argument=type=text/json&url=https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_info.json
