@@ -1,3 +1,4 @@
+# TikTok
 HOST,p16-tiktokcdn-com.akamaized.net,PROXY
 HOST-SUFFIX,byteoversea.com,PROXY
 HOST-SUFFIX,ibytedtos.com,PROXY
@@ -17,6 +18,7 @@ HOST-KEYWORD,musical.ly,PROXY
 HOST-KEYWORD,tiktok,PROXY
 USER-AGENT,TikTok*,PROXY
 
+# Google
 HOST,265.com,PROXY
 HOST,2mdn-cn.net,PROXY
 HOST,2mdn.net,PROXY
