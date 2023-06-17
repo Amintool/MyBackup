@@ -1,3 +1,4 @@
+# TIKTOK
 DOMAIN,p16-tiktokcdn-com.akamaized.net,PROXY
 DOMAIN-SUFFIX,byteoversea.com,PROXY
 DOMAIN-SUFFIX,ibytedtos.com,PROXY
@@ -17,6 +18,7 @@ DOMAIN-KEYWORD,musical.ly,PROXY
 DOMAIN-KEYWORD,tiktok,PROXY
 USER-AGENT,TikTok*,PROXY
 
+# GOOGLE
 DOMAIN,265.com,PROXY
 DOMAIN,2mdn-cn.net,PROXY
 DOMAIN,2mdn.net,PROXY
