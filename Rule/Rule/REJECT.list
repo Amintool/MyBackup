@@ -1,3 +1,4 @@
+DOMAIN, app-measurement.com, REJECT
 # 番茄小说
 DOMAIN, i.snssdk.com, REJECT
 DOMAIN, i-lq.snssdk.com, REJECT
