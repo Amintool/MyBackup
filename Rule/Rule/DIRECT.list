@@ -1,6 +1,6 @@
+# 公益服务
 DOMAIN, ju.dog, DIRECT
 DOMAIN, emby2.agon.cf, DIRECT
 DOMAIN, sdkapp.uve.weibo.com, DIRECT
-DOMAIN-SUFFIX, 11.loseremby.org, DIRECT
-DOMAIN-SUFFIX, 9wfree.emby.eu.org, DIRECT
-#DOMAIN-SUFFIX, apple.com, DIRECT
+DOMAIN, 11.loseremby.org, DIRECT
+DOMAIN, 9wfree.emby.eu.org, DIRECT
