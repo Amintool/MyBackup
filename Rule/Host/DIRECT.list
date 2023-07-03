@@ -4,3 +4,5 @@ HOST, emby2.agon.cf, DIRECT
 HOST, sdkapp.uve.weibo.com, DIRECT
 HOST, 11.loseremby.org, DIRECT
 HOST, 9wfree.emby.eu.org, DIRECT
+# apple
+HOST, testflight.apple.com, DIRECT
