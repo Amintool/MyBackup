@@ -4,3 +4,5 @@ DOMAIN, emby2.agon.cf, DIRECT
 DOMAIN, sdkapp.uve.weibo.com, DIRECT
 DOMAIN, 11.loseremby.org, DIRECT
 DOMAIN, 9wfree.emby.eu.org, DIRECT
+# Apple
+DOMAIN, testflight.apple.com, DIRECT
