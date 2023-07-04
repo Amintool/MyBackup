@@ -7,6 +7,6 @@ DOMAIN, 9wfree.emby.eu.org, DIRECT
 # 苹果服务
 DOMAIN, testflight.apple.com, DIRECT
 # 禁漫天堂
-DOMAIN, jm-comic.art, DIRECT
 DOMAIN, jm-comic1.art, DIRECT
 DOMAIN, jm-comic1.org, DIRECT
+DOMAIN-SUFFIX, jm-comic.art, DIRECT
