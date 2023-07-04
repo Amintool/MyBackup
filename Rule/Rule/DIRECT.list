@@ -4,5 +4,9 @@ DOMAIN, emby2.agon.cf, DIRECT
 DOMAIN, sdkapp.uve.weibo.com, DIRECT
 DOMAIN, 11.loseremby.org, DIRECT
 DOMAIN, 9wfree.emby.eu.org, DIRECT
-# Apple
+# 苹果服务
 DOMAIN, testflight.apple.com, DIRECT
+# 禁漫天堂
+DOMAIN, jm-comic.art, DIRECT
+DOMAIN, jm-comic1.art, DIRECT
+DOMAIN, jm-comic1.org, DIRECT
