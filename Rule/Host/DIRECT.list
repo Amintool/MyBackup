@@ -4,5 +4,9 @@ HOST, emby2.agon.cf, DIRECT
 HOST, sdkapp.uve.weibo.com, DIRECT
 HOST, 11.loseremby.org, DIRECT
 HOST, 9wfree.emby.eu.org, DIRECT
-# apple
+# 苹果服务
 HOST, testflight.apple.com, DIRECT
+# 禁漫天堂
+HOST, jm-comic1.art, DIRECT
+HOST, jm-comic1.org, DIRECT
+HOST-SUFFIX, jm-comic.art, DIRECT
