@@ -6,6 +6,7 @@ HOST, 11.loseremby.org, DIRECT
 HOST, 9wfree.emby.eu.org, DIRECT
 # 苹果服务
 HOST, testflight.apple.com, DIRECT
+HOST-SUFFIX, apple.com, DIRECT
 # 禁漫天堂
 HOST, jm-comic1.art, DIRECT
 HOST, jm-comic1.org, DIRECT
