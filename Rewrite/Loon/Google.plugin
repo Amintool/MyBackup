@@ -2,8 +2,8 @@
 #!desc = 谷歌重定向
 
 [Rewrite]
-^https:\/\/www.google.cn\/* url 302 https://www.google.com/search
-^https:\/\/www.google.com.hk\/* url 302 https://www.google.com/search
+^https?:\/\/www.google.cn\/* url 302 https://www.google.com/search
+^https?:\/\/www.google.com.hk\/* url 302 https://www.google.com/search
 
 [MITM]
 hostname = *.google.cn, *.google.com.hk
