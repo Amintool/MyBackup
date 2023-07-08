@@ -6,6 +6,7 @@ DOMAIN, 11.loseremby.org, DIRECT
 DOMAIN, 9wfree.emby.eu.org, DIRECT
 # 苹果服务
 DOMAIN, testflight.apple.com, DIRECT
+DOMAIN-SUFFIX, apple.com, DIRECT
 # 禁漫天堂
 DOMAIN, jm-comic1.art, DIRECT
 DOMAIN, jm-comic1.org, DIRECT
