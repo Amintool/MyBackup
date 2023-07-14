@@ -1,0 +1,161 @@
+name: "Weibo"
+desc: "Weibo"
+
+http:
+  rewrite:
+    # > 微博_用户推荐弹窗
+    - >-
+      ^https?:\/\/api\.weibo\.cn\/\d\/profile\/recommend_popuser - reject-dict
+    # > 微博_每日一次的开屏广告请求
+    - >-
+      ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/realtime - reject-200
+    # > 微博_去除底部超话栏表层浮icon及tips
+    - >-
+      ^https?:\/\/api\.weibo\.cn\/\d\/!\/huati\/discovery_home_bottom_getdotinfo - reject-dict
+    # > 微博_屏蔽首页左上角每日的弹窗tips
+    - >-
+      ^https?:\/\/m?api\.weibo\.c(n|om)\/\d/push/daily - reject-dict
+    # > 微博_应用内弹窗广告
+    - >-
+      ^https?:\/\/(preload-click|preload-impression)\.uve\.weibo\.com\/(interface\/wbpullad\/wbpullad_click\.php|wbapplua\/get_wbpullad_log\.lua) - reject
+    # > 微博_屏蔽sdkconfig请求
+    - >-
+      ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkconfig\.php - reject
+    # > 微博_Spotlight
+    - >-
+      ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/hot\/hours_spotlight - reject-dict
+
+  script:
+
+    - match: ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/api\.weibo\.cn\/\d\/\w{5}\/(statuses_unread_hot_timeline|timeline)
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/\w{5}\/cardlist
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https://api.weibo.cn/2/!/client/light_skin
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https://new.vip.weibo.cn/littleskin/preview
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow)
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline)
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline)
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list)
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover)
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item)
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+    - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist
+      name: "weibo_json_5"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+  mitm:
+    - "api.weibo.*"
+    - "*.api.weibo.*"
+    - "mapi.weibo.*"
+    - "*.uve.weibo.com"
+    - "new.vip.weibo.cn"
+    - "boot.biz.weibo.com"
+
+script-providers:
+  "weibo_json_5":
+    url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
+    interval: 86400
