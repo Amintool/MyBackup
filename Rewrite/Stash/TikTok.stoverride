@@ -1,0 +1,22 @@
+name: "TikTok"
+desc: "TikTok"
+
+http:
+  rewrite:
+    - >-
+      (?<=_region=)CN(?=&) KR 307
+    - >-
+      (?<=&mcc_mnc=)460[0-1][0-9](?=&) 44001 307
+    - >-
+      ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+    - >-
+      (?<=&carrier=)[%A-Z0-9]+(?=&) docomo 307
+    - >-
+      (?<=tz_name=)Asia/Shanghai(?=&) Asia/Tokyo 307
+    - >-
+      (?<=timezone=)8(?=&) 9 307
+
+  mitm:
+    - "*.tiktokv.com"
+    - "*.byteoversea.com"
+    - "*.tik-tokapi.com"
